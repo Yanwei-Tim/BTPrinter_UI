@@ -1,2 +1,2 @@
-# BTPrinter_UI
-BTPrinter_UI FOR Yanwei
+# BTPrinter_SDK2
+BTPrinter_SDK2 FOR Yanwei
