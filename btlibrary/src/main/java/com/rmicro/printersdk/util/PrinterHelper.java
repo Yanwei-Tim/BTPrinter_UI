@@ -79,53 +79,45 @@ public class PrinterHelper implements Serializable {
     public static String VCOMPRESSED_GRAPHICS = "VCG";
     public static String ENDSTATUS = "CC";
 
-    //###########################YP20/E100 新打印机######################//
-    // 初始化打印机 清楚缓冲区数据
-    public static final byte[] INIT = getByteArray(0x1B, 0x40);
-    //状态查询
-    public static final byte[] CHECK_STATUS = getByteArray(0x1B, 0x06);
-    // 回读
-    public static final byte[] READ_REBACK = getByteArray(0x1B, 0x76);
+    //###########################YP20/E100 新打印机 控制指令######################//
+    /*
+    * 注：app与标签机的数据流才用软件流控方式，即：app收到0x11 表示打印机空闲可以发送数据，app收到0x13表示打印机忙不可以发送数据
+    * */
+    //状态查询指令
+    public static final byte[] CHECK_PRINTER_STATUS = getByteArray(0x1B, 0x06);
+    //打印参数查询
+    public static final byte[] CHECK_PRINTER_PARAM = getByteArray(0x1B, 0x17);
+    //打印型号查询
+    public static final byte[] CHECK_PRINTER_MODEL = getByteArray(0x1B, 0x18);
+    //设置打印浓度 命令头  1C 21 n    0<n<16；
+    public static final byte[] SET_PRINTER_CHROMA = getByteArray(0x1C, 0x21);
+    //设置打印纸张类型 命令头  1C 25 n    n=0:连续纸  n=1:定位孔  n=2:间隙纸  n=3: 黑标纸  n=4：线缆标签
+    public static final byte[] SET_PRINTER_PAGE_TYPE = getByteArray(0x1C, 0x25);
+    //设置打印规格  HEX:		1B  29  L0 L1 wL wH  hL  hH  m
+    public static final byte[] SET_PRINTER_CONFIG = getByteArray(0x1B, 0x29);
+    //图形打印命令1  十六进制码	1B 72 0 0 x 0 yL yH d1...dk
+    public static final byte[] SET_PRINTER_IMAGE = getByteArray(0x1B, 0x72, 0x00, 0x00);
+    //图形打印命令2  十六进制码	1B 19 m n k d1...dk
+    public static final byte[] SET_PRINTER_IMAGE2 = getByteArray(0x1B, 0x19);
+    //走纸命令  1B 4A m  m表示走纸点行数   0 ≤ m ≤ 255
+    public static final byte[] SET_PRINTER_PAGE_RUN = getByteArray(0x1B, 0x4A);
+    //走纸命令  走到下个标签  十六进制码	1B 0C
+    public static final byte[] SET_PRINTER_PAGE_RUN_NEXT = getByteArray(0x1B, 0x0C);
+    //打印字体／图片行间距 命令头
+    public static final byte[] PRINT_LINESPACE = getByteArray(0x1B, 0x31);
+
     // 打印并回车
     public static final byte[] ENTER_PRINT = getByteArray(0x0D);
     // 打印并换行
     public static final byte[] WRAP_PRINT = getByteArray(0x0A);
-    // 左对齐
-    public static final byte[] LEFT_ALIAN = getByteArray(0x1B, 0x61, 0);
-    // 居中
-    public static final byte[] MIND_ALIAN = getByteArray(0x1B, 0x61, 1);
-    // 右对齐
-    public static final byte[] RIGHT_ALIAN = getByteArray(0x1B, 0x61, 2);
-    // 水平放大2倍
-    public static final byte[] LARGE_TWICE = getByteArray(0x1B, 0x58, 0x02);
-    // 打印并进纸1行
-    public static final byte[] LINE_FEED = getByteArray(0x1B, 0x64, 0x01);
-    // 打印并进纸4行
-    public static final byte[] LINE_FEED4 = getByteArray(0x1B, 0x64, 0x06);
-    // 打印并进纸8行
-    public static final byte[] LINE_FEED8 = getByteArray(0x1B, 0x64, 0x08);
-    // 模块波特率
-    public static final byte[] BAUD_RATE_U = getByteArray(0x1B, 0xBC, 0x0);
-    // 手机波特率
-    public static final byte[] BAUD_RATE_P = getByteArray(0xEA, 0x0B);
-    // 条码打印
-    public static final byte[] CODE_BOTTOM = getByteArray(0x1B, 0x4D, 0x02);
-    public static final byte[] CODE_ENA13 = getByteArray(0x1D, 0x6B, 67, 13);
-    public static final byte[] GET_STATE = getByteArray(0x1B, 0x76);
     // 打印图片m  1,8点单倍宽
     public static final byte[] IMAGECMD = getByteArray(0x00, 0x1B, 0x2A, 1);
     // 打印图片m
     public static final byte[] IMAGECMD24 = getByteArray(0x00, 0x1B, 0x2A, 0x21);
-    //打印字体／图片颜色浓度／清晰度设置
-    public static final byte[] CHROMA_SET = getByteArray(0x1B, 0x73, 0x2B);
-    //默认字体／图片深度／清晰度，字体默认0x32，图片默认0x16
-    public static final byte[] TXT_CHROMA_DEF = getByteArray(0x1B, 0x73, 0x2B, 0x32);
-    public static final byte[] IMG_CHROMA_DEF = getByteArray(0x1B, 0x73, 0x2B, 0x16);
-    //打印字体／图片行间距 命令头
-    public static final byte[] PRINT_LINESPACE = getByteArray(0x1B, 0x31);
-    // 颜色
+
     public static final int BLACK = 0xff000000;
     public static final int WITER = 0xffffffff;
+
 
     public static final byte[] getByteArray(int... array) {
         byte[] bytes = new byte[array.length];
@@ -135,66 +127,43 @@ public class PrinterHelper implements Serializable {
         return bytes;
     }
 
-    //进纸一行
-    public static void end1() throws Exception {
-        WriteData(LINE_FEED);
-    }
-    //进纸4行
-    public static void end4() throws Exception {
-        WriteData(LINE_FEED4);
-    }
-    //进纸8行
-    public static void end8() throws Exception {
-        WriteData(LINE_FEED8);
-    }
-    //打印并换行
-    private static void wrapPrint() throws Exception {
-        WriteData(WRAP_PRINT);
-    }
-    // 左对齐
-    public static void alignLeft() throws Exception {
-        WriteData(LEFT_ALIAN);
-    }
-    //居中
-    public static void alignCenter() throws Exception {
-        WriteData(MIND_ALIAN);
-    }
-    // 右对齐
-    public static void alignRight() throws Exception {
-        WriteData(RIGHT_ALIAN);
-    }
-    // 水平放大2倍
-    public static void large2() throws Exception {
-        WriteData(LARGE_TWICE);
-    }
-
-    //打印字体／图片行间距设置 0x00～0xFF
-    //打印图片设置为0x0
-    //打印文字参考设置为0x5
-    public static void LineSpace_SET(byte sp) throws Exception {
+    //打印字体／图片行间距设置 0x00～0xFF  打印图片设置为0x0  打印文字参考设置为0x5
+    public static void setPrinterSpace(byte sp) throws Exception {
         byte[] PRINT_LINESPACE_SET = new byte[3];
         System.arraycopy(PRINT_LINESPACE, 0, PRINT_LINESPACE_SET, 0, PRINT_LINESPACE.length);
         PRINT_LINESPACE_SET[2] = sp;
-
         WriteData(PRINT_LINESPACE_SET);
     }
 
-    //打印字体／图片 深度以及清晰度设置0x0~0xFF
-    public static void print_CHROMA_set(byte pg) throws Exception {
-        byte[] PRINT_CHROMA_SET = new byte[4];
-        System.arraycopy(CHROMA_SET, 0, PRINT_CHROMA_SET, 0, CHROMA_SET.length);
-        PRINT_CHROMA_SET[3] = pg;
+    //打印字体／图片 深度以及清晰度设置0x0~0x0F  <0--16>
+    public static void setPrinterChroma(int val) throws Exception {
+        byte[] PRINT_CHROMA_SET = new byte[3];
+        System.arraycopy(SET_PRINTER_CHROMA, 0, PRINT_CHROMA_SET, 0, SET_PRINTER_CHROMA.length);
+        PRINT_CHROMA_SET[2] = (byte)val;
         WriteData(PRINT_CHROMA_SET);
     }
 
-    //打印字体清晰度默认设置 -- 0x32
-    public static void printTXT_CHROMA() throws Exception {
-        WriteData(TXT_CHROMA_DEF);
+    //设置打印纸张类型 命令头  1C 25 n    n=0:连续纸  n=1:定位孔  n=2:间隙纸  n=3: 黑标纸  n=4：线缆标签
+    public static void setPrinterPageType(int val) throws Exception {
+        byte[] PRINT_PAGE_TYPE_SET = new byte[3];
+        System.arraycopy(SET_PRINTER_PAGE_TYPE, 0, PRINT_PAGE_TYPE_SET, 0, SET_PRINTER_PAGE_TYPE.length);
+        PRINT_PAGE_TYPE_SET[2] = (byte)val;
+        WriteData(PRINT_PAGE_TYPE_SET);
     }
-    //打印图片深度／清晰度默认设置 -- 0x16
-    public static void printIMG_CHROMA() throws Exception {
-        WriteData(IMG_CHROMA_DEF);
+
+    // 打印机走纸设置 ： 0 ≤ m ≤ 255
+    public static void setPrinterPageRun(int val) throws Exception {
+        byte[] PRINT_PAGE_RUN_SET = new byte[3];
+        System.arraycopy(PRINT_PAGE_RUN_SET, 0, PRINT_PAGE_RUN_SET, 0, SET_PRINTER_PAGE_RUN.length);
+        PRINT_PAGE_RUN_SET[2] = (byte)val;
+        WriteData(PRINT_PAGE_RUN_SET);
     }
+
+    // 打印机走纸-->走到下一个标签纸
+    public static void setPrinterPageRunNext(int val) throws Exception {
+        WriteData(SET_PRINTER_PAGE_RUN_NEXT);
+    }
+
     //###################################################################//
 
     /**

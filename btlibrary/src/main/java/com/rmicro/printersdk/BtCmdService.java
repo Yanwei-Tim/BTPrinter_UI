@@ -154,14 +154,8 @@ public class BtCmdService extends IntentService {
     private void printTest() {
         Log.d(TAG, "printTest..");
         String test = "123abcABC";
-        byte chroma = (byte)0xA0;//打印浓度
-        byte space = (byte)0x05;
         try {
-            PrinterHelper.LineSpace_SET(space);//行间距
-            //PrinterHelper.print_CHROMA_set(chroma);//打印浓度设置
-            //PrinterHelper.alignCenter();//打印居中
             print(test.getBytes());
-            //PrinterHelper.end4();//打印完进纸张4行
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -175,7 +169,7 @@ public class BtCmdService extends IntentService {
             byte[] add = PrinterHelper.getByteArray(0x00);
             int[] sourceData = PrinterHelper.getBitmapData(bitmap);
             byte[] data = PrinterHelper.getByteArray(sourceData);
-            PrinterHelper.LineSpace_SET(add[0]);//行间距
+            PrinterHelper.setPrinterSpace(add[0]);//行间距
             int sendLen = bitmap.getWidth();//
             byte[] ImageCMD = PrinterHelper.getImageCmd(PrinterHelper.IMAGECMD, sendLen);
 
