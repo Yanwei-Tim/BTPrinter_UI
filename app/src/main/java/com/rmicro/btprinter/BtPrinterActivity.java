@@ -64,12 +64,6 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
         findViewById(R.id.btn_getPrintVersion).setOnClickListener(this);
         findViewById(R.id.btn_getPrintID).setOnClickListener(this);
         findViewById(R.id.btn_reSet).setOnClickListener(this);
-//        findViewById(R.id.btn_printSTOne).setOnClickListener(this);
-//        findViewById(R.id.btn_printSTTwo).setOnClickListener(this);
-//        findViewById(R.id.btn_getStatus).setOnClickListener(this);
-//        findViewById(R.id.btn_getPrintName).setOnClickListener(this);
-//        findViewById(R.id.btn_getPrintVersion).setOnClickListener(this);
-//        findViewById(R.id.btn_getPrintID).setOnClickListener(this);
 
         //接收蓝牙数据回调
         manager.setReceiveDataListener(new IReceiveDataListener() {
@@ -155,46 +149,14 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
                 startActivity(serverIntent);
                 break;
             case R.id.btn_printTest:
-                //startBtCmdService(ConstantDefine.ACTION_PRINT_TEST);
-                String info = "可以正常打印出这句话吗？\n";
-                try {
-                    manager.print(info.getBytes("GBK"));
-                }catch (Exception e){
-                    e.printStackTrace();
-                }
-
+                startBtCmdService(ConstantDefine.ACTION_PRINT_TEST);
                 break;
-//            case R.id.btn_printSTOne:
-//                printSTOne();
-//                break;
-//            case R.id.btn_printSTTwo:
-//                printSTTwo();
-//                break;
-//            case R.id.btn_getStatus:
-//                startBtCmdService(ConstantDefine.ACTION_GET_STATUS);
-//                break;
-//            case R.id.btn_getPrintName:
-//                startBtCmdService(ConstantDefine.ACTION_GET_PRINT_NAME);
-//                break;
-//            case R.id.btn_getPrintVersion:
-//                startBtCmdService(ConstantDefine.ACTION_GET_PRINT_VERSION);
-//                break;
             case R.id.btn_imgprintTest:
                 startBtCmdService(ConstantDefine.ACTION_IMG_PRINT_TEST);
                 break;
             case R.id.btn_getPrintStatus:
-                startBtCmdService(ConstantDefine.ACTION_GET_PRINT_STATUS);
-//                try{
-//                    byte status = PrinterHelper.getPrintStatus();
-//                    status &= 0x01;
-//                    int value = PrinterHelper.byte2Int(status);
-//                    if((value & 0x01)!=0){
-//
-//                    }
-//                }catch (Exception e){
-//                    e.printStackTrace();
-//                }
-
+                //startBtCmdService(ConstantDefine.ACTION_GET_PRINT_STATUS);
+                getPrinterStatus();
                 break;
             case R.id.btn_getPrintParam:
                 startBtCmdService(ConstantDefine.ACTION_GET_PRINT_PARAM);
@@ -211,28 +173,97 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
         }
     }
 
-    //打印测试
-    public void printTest() {
-        /*manager.printText("可以正常打印出这句话吗？\n");
-        manager.printText("Hello World.\n");
+    //打印字体／图片行间距设置 0x00～0xFF <0-255> 打印图片设置为0x0  打印文字参考设置为0x5
+    private void setPrinterSpace(int val) {
+        int value = val;
+        if(value < 0)
+            value = 0;
+        if(value > 255)
+            value = 255;
+        try {
+            PrinterHelper.setPrinterSpace(value);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
-        manager.printImage(markImage());*/
-
-        Intent intent = new Intent(getApplicationContext(), BtCmdService.class);
-        intent.setAction(ConstantDefine.ACTION_PRINT_TEST);
-        startService(intent);
     }
 
-    private void printSTOne() {
-        Intent intent = new Intent(getApplicationContext(), BtCmdService.class);
-        intent.setAction(ConstantDefine.ACTION_PRINT_ST_ONE);
-        startService(intent);
+    //打印字体／图片 浓度设置0x0~0x0F  <0--16>
+    private void setPrinterChroma(int val){
+        int value = val;
+        if(value < 0)
+            value = 0;
+        if(value > 16)
+            value = 16;
+        try {
+            PrinterHelper.setPrinterChroma(value);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
-    private void printSTTwo() {
-        Intent intent = new Intent(getApplicationContext(), BtCmdService.class);
-        intent.setAction(ConstantDefine.ACTION_PRINT_ST_TWO);
-        startService(intent);
+    //设置打印纸张类型 命令头  1C 25 n    n=0:连续纸  n=1:定位孔  n=2:间隙纸  n=3: 黑标纸  n=4：线缆标签
+    private void setPrinterPageType(int type){
+        if(type!=0 && type!=1 && type!=2 && type!=3 && type!=4){
+            Log.d(TAG, "纸张类型设置错误，n=0:连续纸  n=1:定位孔  n=2:间隙纸  n=3: 黑标纸  n=4：线缆标签");
+        }
+        try {
+            PrinterHelper.setPrinterChroma(type);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    // 打印机走纸设置 ： 0 ≤ m ≤ 255
+    private void setPrinterPageRun(int val){
+        int value = val;
+        if(value < 0)
+            value = 0;
+        if(value > 255)
+            value = 255;
+        try {
+            PrinterHelper.setPrinterPageRun(value);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    // 打印机走纸-->直接走到下一个标签纸
+    private void setPrinterPageRunNext(){
+        try {
+            PrinterHelper.setPrinterPageRunNext();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 获取打印机状态
+     * 0：打印机有纸。 1：打印机缺纸。 2：打印机上盖关闭。 3：打印机上盖开启。
+     * 4：打印机切刀正常。5：打印机切刀异常。6：打印机切刀抬起。7：打印机切刀按下。
+     * 8: 纸张类型正常。 9：纸张类型错误。10：运行正常。11：运行异常。其他：保留
+     */
+    private int getPrinterStatus(){
+        int status = -1;
+        try {
+            status =  PrinterHelper.getRDPrinterStatus();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return status;
+    }
+
+    /*
+     * 获取打印机型号
+     * */
+    private String getPrinterModel(){
+        String model_no=null;
+        try {
+            model_no =  PrinterHelper.getRDPrinterModel();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return model_no;
     }
 
     private void startBtCmdService(String action) {
@@ -240,5 +271,4 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
         intent.setAction(action);
         startService(intent);
     }
-
 }
