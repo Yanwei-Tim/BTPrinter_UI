@@ -84,11 +84,11 @@ public class PrinterHelper implements Serializable {
     * 注：app与标签机的数据流才用软件流控方式，即：app收到0x11 表示打印机空闲可以发送数据，app收到0x13表示打印机忙不可以发送数据
     * */
     //状态查询指令
-    public static final byte[] CHECK_PRINTER_STATUS = getByteArray(0x1B, 0x06);
+    public static final byte[] GET_PRINTER_STATUS = getByteArray(0x1B, 0x06);
     //打印参数查询
-    public static final byte[] CHECK_PRINTER_PARAM = getByteArray(0x1B, 0x17);
+    public static final byte[] GET_PRINTER_PARAM = getByteArray(0x1B, 0x17);
     //打印型号查询
-    public static final byte[] CHECK_PRINTER_MODEL = getByteArray(0x1B, 0x18);
+    public static final byte[] GET_PRINTER_MODEL = getByteArray(0x1B, 0x18);
     //设置打印浓度 命令头  1C 21 n    0<n<16；
     public static final byte[] SET_PRINTER_CHROMA = getByteArray(0x1C, 0x21);
     //设置打印纸张类型 命令头  1C 25 n    n=0:连续纸  n=1:定位孔  n=2:间隙纸  n=3: 黑标纸  n=4：线缆标签
@@ -128,10 +128,10 @@ public class PrinterHelper implements Serializable {
     }
 
     //打印字体／图片行间距设置 0x00～0xFF  打印图片设置为0x0  打印文字参考设置为0x5
-    public static void setPrinterSpace(byte sp) throws Exception {
+    public static void setPrinterSpace(int val) throws Exception {
         byte[] PRINT_LINESPACE_SET = new byte[3];
         System.arraycopy(PRINT_LINESPACE, 0, PRINT_LINESPACE_SET, 0, PRINT_LINESPACE.length);
-        PRINT_LINESPACE_SET[2] = sp;
+        PRINT_LINESPACE_SET[2] = (byte)val;
         WriteData(PRINT_LINESPACE_SET);
     }
 
@@ -160,8 +160,84 @@ public class PrinterHelper implements Serializable {
     }
 
     // 打印机走纸-->走到下一个标签纸
-    public static void setPrinterPageRunNext(int val) throws Exception {
+    public static void setPrinterPageRunNext() throws Exception {
         WriteData(SET_PRINTER_PAGE_RUN_NEXT);
+    }
+
+    /**
+     * 获取打印机状态
+     * 0：打印机有纸。 1：打印机缺纸。 2：打印机上盖关闭。 3：打印机上盖开启。
+     * 4：打印机切刀正常。5：打印机切刀异常。6：打印机切刀抬起。7：打印机切刀按下。
+     * 8: 纸张类型正常。 9：纸张类型错误。10：运行正常。11：运行异常。其他：保留
+     */
+    public static int getRDPrinterStatus() throws Exception {
+        int var0 = -1;
+        int status = -1;
+        byte[] var1 = new byte[4];
+        WriteData(GET_PRINTER_STATUS);
+        var1 = ReadData(3);
+        if (var1 != null && var1[0]== 0x1B && var1[1] == 0x06) {
+            var0 = var1[2] & 255;
+            if((int)(var0 & 0x01) == 0)
+                status = 0;
+            if((int)(var0 & 0x01) == 1)
+                status = 1;
+            if((int)(var0 & 0x02) == 0)
+                status = 2;
+            if((int)(var0 & 0x02) == 2)
+                status = 3;
+            if((int)(var0 & 0x04) == 0)
+                status = 4;
+            if((int)(var0 & 0x04) == 4)
+                status = 5;
+            if((int)(var0 & 0x08) == 0)
+                status = 6;
+            if((int)(var0 & 0x08) == 8)
+                status = 7;
+            if((int)(var0 & 0x10) == 0)
+                status = 8;
+            if((int)(var0 & 0x10) == 16)
+                status = 9;
+            if((int)(var0 & 0x20) == 0)
+                status = 10;
+            if((int)(var0 & 0x20) == 32)
+                status = 11;
+
+            Log.d(TAG, "获取打印机状态：" + status);
+            return status;
+        } else {
+            Log.d(TAG, "获取打印机状态失败");
+            return -1;
+        }
+    }
+
+    /*
+    * 获取打印机型号
+    * */
+    public static String getRDPrinterModel() throws Exception {
+        String model = null;
+        int length = -1;
+        byte[] var1 = new byte[32];
+        WriteData(GET_PRINTER_MODEL);
+        var1 = ReadData(3);
+        if (var1 != null && var1[0]== 0x1B && var1[1] == 0x18) {
+            length = var1[2]& 255;
+            if(length > 0) {
+                byte[] version_data = new byte[length];
+                System.arraycopy(var1, 3, version_data, 0, length);
+                model = Byte2Ascii(version_data);
+            }
+        }
+        return model;
+    }
+
+    private static String Byte2Ascii(byte[] data) {
+        StringBuilder sb = new StringBuilder(data.length);
+        for (int i = 0; i < data.length; ++ i) {
+            if (data[i] < 0) throw new IllegalArgumentException();
+            sb.append((char) data[i]);
+        }
+        return sb.toString();
     }
 
     //###################################################################//
