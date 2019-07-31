@@ -200,9 +200,10 @@ public class PrinterHelper implements Serializable {
         byte[] var1 = new byte[4];
         WriteData(GET_PRINTER_STATUS);
         var1 = ReadData(3);
+        Log.d(TAG, "var1 ：" + bytesToHexString(var1));
         if (var1 != null ){
 
-            if(var1[0]== 0x11 && var1[0]== 0x1B && var1[1] == 0x06) {
+            if(var1[0]== 0x11 && var1[1]== 0x1B && var1[2] == 0x06) {
                 var0 = var1[3] & 255;
                 if ((int) (var0 & 0x01) == 0)
                     status = 0;

@@ -159,7 +159,7 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
                 //设置纸张类型
                 setPrinterPageType(2);//间隙纸张
                 //设置标签规格
-                setPrinterLabelParam(17,0,144,1,0,2,0);//(44,0,32,0,28,0,0);
+                setPrinterLabelParam(44,0,244,1,90,1,0);//(17,0,144,1,0,2,0);
                 //走纸10点 --> 与标签顶部距离10点
                 setPrinterPageRun(10);
                 //打印图形
