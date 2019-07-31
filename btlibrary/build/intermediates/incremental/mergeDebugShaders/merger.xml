@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Tim-APP\TIM-BTPrinter\BTPrinter_SDK2\btlibrary\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Tim-APP\TIM-BTPrinter\BTPrinter_SDK2\btlibrary\src\debug\shaders"/></dataSet></merger>

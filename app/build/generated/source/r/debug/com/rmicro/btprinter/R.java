@@ -3489,35 +3489,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.firelotus.btprinter:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.firelotus.btprinter:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.firelotus.btprinter:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.firelotus.btprinter:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.firelotus.btprinter:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.firelotus.btprinter:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.firelotus.btprinter:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.firelotus.btprinter:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.firelotus.btprinter:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.firelotus.btprinter:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.firelotus.btprinter:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.firelotus.btprinter:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.firelotus.btprinter:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.firelotus.btprinter:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.firelotus.btprinter:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.firelotus.btprinter:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.firelotus.btprinter:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.firelotus.btprinter:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.firelotus.btprinter:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.firelotus.btprinter:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.firelotus.btprinter:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.firelotus.btprinter:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.firelotus.btprinter:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.firelotus.btprinter:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.firelotus.btprinter:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.firelotus.btprinter:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.firelotus.btprinter:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.firelotus.btprinter:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.firelotus.btprinter:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.rmicro.btprinter:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.rmicro.btprinter:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.rmicro.btprinter:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.rmicro.btprinter:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.rmicro.btprinter:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.rmicro.btprinter:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.rmicro.btprinter:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.rmicro.btprinter:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.rmicro.btprinter:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.rmicro.btprinter:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.rmicro.btprinter:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.rmicro.btprinter:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.rmicro.btprinter:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.rmicro.btprinter:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.rmicro.btprinter:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.rmicro.btprinter:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.rmicro.btprinter:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.rmicro.btprinter:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.rmicro.btprinter:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.rmicro.btprinter:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.rmicro.btprinter:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.rmicro.btprinter:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.rmicro.btprinter:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.rmicro.btprinter:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.rmicro.btprinter:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.rmicro.btprinter:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.rmicro.btprinter:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.rmicro.btprinter:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.rmicro.btprinter:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3560,7 +3560,7 @@ public final class R {
         0x7f020126
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3568,11 +3568,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:background
+     * @attr name com.rmicro.btprinter:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3583,11 +3583,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:backgroundSplit
+     * @attr name com.rmicro.btprinter:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3598,11 +3598,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:backgroundStacked
+     * @attr name com.rmicro.btprinter:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3611,11 +3611,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetEnd
+     * @attr name com.rmicro.btprinter:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3624,11 +3624,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetEndWithActions
+     * @attr name com.rmicro.btprinter:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3637,11 +3637,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetLeft
+     * @attr name com.rmicro.btprinter:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3650,11 +3650,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetRight
+     * @attr name com.rmicro.btprinter:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3663,11 +3663,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetStart
+     * @attr name com.rmicro.btprinter:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3676,11 +3676,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetStartWithNavigation
+     * @attr name com.rmicro.btprinter:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3688,11 +3688,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:customNavigationLayout
+     * @attr name com.rmicro.btprinter:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3710,11 +3710,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:displayOptions
+     * @attr name com.rmicro.btprinter:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3722,11 +3722,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:divider
+     * @attr name com.rmicro.btprinter:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3735,11 +3735,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:elevation
+     * @attr name com.rmicro.btprinter:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3748,21 +3748,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:height
+     * @attr name com.rmicro.btprinter:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:hideOnContentScroll
+     * @attr name com.rmicro.btprinter:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3770,11 +3770,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:homeAsUpIndicator
+     * @attr name com.rmicro.btprinter:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3782,11 +3782,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:homeLayout
+     * @attr name com.rmicro.btprinter:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3794,11 +3794,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:icon
+     * @attr name com.rmicro.btprinter:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3806,11 +3806,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:indeterminateProgressStyle
+     * @attr name com.rmicro.btprinter:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3819,11 +3819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:itemPadding
+     * @attr name com.rmicro.btprinter:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3831,11 +3831,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:logo
+     * @attr name com.rmicro.btprinter:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3849,11 +3849,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:navigationMode
+     * @attr name com.rmicro.btprinter:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3861,11 +3861,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:popupTheme
+     * @attr name com.rmicro.btprinter:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3874,11 +3874,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:progressBarPadding
+     * @attr name com.rmicro.btprinter:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3886,21 +3886,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:progressBarStyle
+     * @attr name com.rmicro.btprinter:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:subtitle
+     * @attr name com.rmicro.btprinter:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3908,21 +3908,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:subtitleTextStyle
+     * @attr name com.rmicro.btprinter:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:title
+     * @attr name com.rmicro.btprinter:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3930,7 +3930,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:titleTextStyle
+     * @attr name com.rmicro.btprinter:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4012,12 +4012,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.firelotus.btprinter:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.firelotus.btprinter:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.firelotus.btprinter:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.firelotus.btprinter:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.firelotus.btprinter:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.firelotus.btprinter:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.rmicro.btprinter:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.rmicro.btprinter:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.rmicro.btprinter:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.rmicro.btprinter:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.rmicro.btprinter:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.rmicro.btprinter:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4031,7 +4031,7 @@ public final class R {
         0x7f020102, 0x7f020126
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4039,11 +4039,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:background
+     * @attr name com.rmicro.btprinter:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4054,11 +4054,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:backgroundSplit
+     * @attr name com.rmicro.btprinter:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4066,11 +4066,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:closeItemLayout
+     * @attr name com.rmicro.btprinter:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4079,11 +4079,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:height
+     * @attr name com.rmicro.btprinter:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4091,11 +4091,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:subtitleTextStyle
+     * @attr name com.rmicro.btprinter:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4103,7 +4103,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:titleTextStyle
+     * @attr name com.rmicro.btprinter:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4113,8 +4113,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.firelotus.btprinter:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.firelotus.btprinter:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.rmicro.btprinter:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.rmicro.btprinter:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4123,7 +4123,7 @@ public final class R {
         0x7f020072, 0x7f02008b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4131,17 +4131,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:expandActivityOverflowButtonDrawable
+     * @attr name com.rmicro.btprinter:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:initialActivityCount
+     * @attr name com.rmicro.btprinter:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4152,13 +4152,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.firelotus.btprinter:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.firelotus.btprinter:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.firelotus.btprinter:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.firelotus.btprinter:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.firelotus.btprinter:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.firelotus.btprinter:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.firelotus.btprinter:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.rmicro.btprinter:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.rmicro.btprinter:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.rmicro.btprinter:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.rmicro.btprinter:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.rmicro.btprinter:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.rmicro.btprinter:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.rmicro.btprinter:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -4186,7 +4186,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4195,11 +4195,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:buttonIconDimen
+     * @attr name com.rmicro.btprinter:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4207,11 +4207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonPanelSideLayout
+     * @attr name com.rmicro.btprinter:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4219,11 +4219,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:listItemLayout
+     * @attr name com.rmicro.btprinter:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4231,11 +4231,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:listLayout
+     * @attr name com.rmicro.btprinter:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4243,21 +4243,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:multiChoiceItemLayout
+     * @attr name com.rmicro.btprinter:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:showTitle
+     * @attr name com.rmicro.btprinter:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4265,7 +4265,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:singleChoiceItemLayout
+     * @attr name com.rmicro.btprinter:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -4465,9 +4465,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.firelotus.btprinter:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.firelotus.btprinter:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.firelotus.btprinter:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.rmicro.btprinter:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.rmicro.btprinter:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.rmicro.btprinter:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4493,7 +4493,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4501,22 +4501,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:srcCompat
+     * @attr name com.rmicro.btprinter:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:tint
+     * @attr name com.rmicro.btprinter:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4533,7 +4533,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:tintMode
+     * @attr name com.rmicro.btprinter:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4544,9 +4544,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.firelotus.btprinter:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.firelotus.btprinter:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.firelotus.btprinter:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.rmicro.btprinter:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.rmicro.btprinter:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.rmicro.btprinter:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4569,7 +4569,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4577,22 +4577,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:tickMark
+     * @attr name com.rmicro.btprinter:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:tickMarkTint
+     * @attr name com.rmicro.btprinter:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4609,7 +4609,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:tickMarkTintMode
+     * @attr name com.rmicro.btprinter:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4749,16 +4749,16 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.firelotus.btprinter:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.firelotus.btprinter:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.firelotus.btprinter:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.firelotus.btprinter:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.firelotus.btprinter:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.firelotus.btprinter:firstBaselineToTopHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.firelotus.btprinter:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.firelotus.btprinter:lastBaselineToBottomHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.firelotus.btprinter:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.firelotus.btprinter:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.rmicro.btprinter:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.rmicro.btprinter:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.rmicro.btprinter:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.rmicro.btprinter:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.rmicro.btprinter:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.rmicro.btprinter:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.rmicro.btprinter:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.rmicro.btprinter:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.rmicro.btprinter:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.rmicro.btprinter:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4790,7 +4790,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4799,11 +4799,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:autoSizeMaxTextSize
+     * @attr name com.rmicro.btprinter:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4812,11 +4812,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:autoSizeMinTextSize
+     * @attr name com.rmicro.btprinter:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4824,11 +4824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:autoSizePresetSizes
+     * @attr name com.rmicro.btprinter:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4837,11 +4837,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:autoSizeStepGranularity
+     * @attr name com.rmicro.btprinter:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4854,11 +4854,11 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:autoSizeTextType
+     * @attr name com.rmicro.btprinter:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#firstBaselineToTopHeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#firstBaselineToTopHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4867,21 +4867,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:firstBaselineToTopHeight
+     * @attr name com.rmicro.btprinter:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:fontFamily
+     * @attr name com.rmicro.btprinter:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#lastBaselineToBottomHeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#lastBaselineToBottomHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4890,11 +4890,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:lastBaselineToBottomHeight
+     * @attr name com.rmicro.btprinter:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#lineHeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#lineHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4903,11 +4903,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:lineHeight
+     * @attr name com.rmicro.btprinter:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4917,7 +4917,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:textAllCaps
+     * @attr name com.rmicro.btprinter:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -4929,125 +4929,125 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.firelotus.btprinter:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.firelotus.btprinter:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.firelotus.btprinter:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.firelotus.btprinter:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.firelotus.btprinter:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.firelotus.btprinter:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.firelotus.btprinter:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.firelotus.btprinter:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.firelotus.btprinter:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.firelotus.btprinter:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.firelotus.btprinter:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.firelotus.btprinter:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.firelotus.btprinter:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.firelotus.btprinter:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.firelotus.btprinter:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.firelotus.btprinter:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.firelotus.btprinter:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.firelotus.btprinter:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.firelotus.btprinter:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.firelotus.btprinter:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.firelotus.btprinter:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.firelotus.btprinter:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.firelotus.btprinter:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.firelotus.btprinter:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.firelotus.btprinter:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.firelotus.btprinter:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.firelotus.btprinter:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.firelotus.btprinter:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.firelotus.btprinter:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.firelotus.btprinter:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.firelotus.btprinter:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.firelotus.btprinter:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.firelotus.btprinter:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.firelotus.btprinter:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.firelotus.btprinter:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.firelotus.btprinter:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.firelotus.btprinter:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.firelotus.btprinter:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.firelotus.btprinter:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.firelotus.btprinter:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.firelotus.btprinter:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.firelotus.btprinter:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.firelotus.btprinter:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.firelotus.btprinter:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.firelotus.btprinter:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.firelotus.btprinter:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.firelotus.btprinter:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.firelotus.btprinter:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.firelotus.btprinter:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.firelotus.btprinter:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.firelotus.btprinter:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.firelotus.btprinter:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.firelotus.btprinter:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.firelotus.btprinter:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.firelotus.btprinter:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.firelotus.btprinter:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.firelotus.btprinter:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.firelotus.btprinter:dialogCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.firelotus.btprinter:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.firelotus.btprinter:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.firelotus.btprinter:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.firelotus.btprinter:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.firelotus.btprinter:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.firelotus.btprinter:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.firelotus.btprinter:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.firelotus.btprinter:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.firelotus.btprinter:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.firelotus.btprinter:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.firelotus.btprinter:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.firelotus.btprinter:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.firelotus.btprinter:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.firelotus.btprinter:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.firelotus.btprinter:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.firelotus.btprinter:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.firelotus.btprinter:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.firelotus.btprinter:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.firelotus.btprinter:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.firelotus.btprinter:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.firelotus.btprinter:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.firelotus.btprinter:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.firelotus.btprinter:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.firelotus.btprinter:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.firelotus.btprinter:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.firelotus.btprinter:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.firelotus.btprinter:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.firelotus.btprinter:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.firelotus.btprinter:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.firelotus.btprinter:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.firelotus.btprinter:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.firelotus.btprinter:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.firelotus.btprinter:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.firelotus.btprinter:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.firelotus.btprinter:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.firelotus.btprinter:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.firelotus.btprinter:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.firelotus.btprinter:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.firelotus.btprinter:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.firelotus.btprinter:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.firelotus.btprinter:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.firelotus.btprinter:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.firelotus.btprinter:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.firelotus.btprinter:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.firelotus.btprinter:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.firelotus.btprinter:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.firelotus.btprinter:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.firelotus.btprinter:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.firelotus.btprinter:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.firelotus.btprinter:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.firelotus.btprinter:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.firelotus.btprinter:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.firelotus.btprinter:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.firelotus.btprinter:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.firelotus.btprinter:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.firelotus.btprinter:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.firelotus.btprinter:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.firelotus.btprinter:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.firelotus.btprinter:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.firelotus.btprinter:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.firelotus.btprinter:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.rmicro.btprinter:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.rmicro.btprinter:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.rmicro.btprinter:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.rmicro.btprinter:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.rmicro.btprinter:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.rmicro.btprinter:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.rmicro.btprinter:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.rmicro.btprinter:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.rmicro.btprinter:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.rmicro.btprinter:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.rmicro.btprinter:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.rmicro.btprinter:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.rmicro.btprinter:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.rmicro.btprinter:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.rmicro.btprinter:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.rmicro.btprinter:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.rmicro.btprinter:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.rmicro.btprinter:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.rmicro.btprinter:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.rmicro.btprinter:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.rmicro.btprinter:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.rmicro.btprinter:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.rmicro.btprinter:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.rmicro.btprinter:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.rmicro.btprinter:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.rmicro.btprinter:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.rmicro.btprinter:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.rmicro.btprinter:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.rmicro.btprinter:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.rmicro.btprinter:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.rmicro.btprinter:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.rmicro.btprinter:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.rmicro.btprinter:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.rmicro.btprinter:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.rmicro.btprinter:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.rmicro.btprinter:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.rmicro.btprinter:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.rmicro.btprinter:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.rmicro.btprinter:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.rmicro.btprinter:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.rmicro.btprinter:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.rmicro.btprinter:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.rmicro.btprinter:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.rmicro.btprinter:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.rmicro.btprinter:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.rmicro.btprinter:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.rmicro.btprinter:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.rmicro.btprinter:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.rmicro.btprinter:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.rmicro.btprinter:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.rmicro.btprinter:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.rmicro.btprinter:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.rmicro.btprinter:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.rmicro.btprinter:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.rmicro.btprinter:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.rmicro.btprinter:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.rmicro.btprinter:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.rmicro.btprinter:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.rmicro.btprinter:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.rmicro.btprinter:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.rmicro.btprinter:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.rmicro.btprinter:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.rmicro.btprinter:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.rmicro.btprinter:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.rmicro.btprinter:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.rmicro.btprinter:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.rmicro.btprinter:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.rmicro.btprinter:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.rmicro.btprinter:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.rmicro.btprinter:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.rmicro.btprinter:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.rmicro.btprinter:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.rmicro.btprinter:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.rmicro.btprinter:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.rmicro.btprinter:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.rmicro.btprinter:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.rmicro.btprinter:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.rmicro.btprinter:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.rmicro.btprinter:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.rmicro.btprinter:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.rmicro.btprinter:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.rmicro.btprinter:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.rmicro.btprinter:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.rmicro.btprinter:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.rmicro.btprinter:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.rmicro.btprinter:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.rmicro.btprinter:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.rmicro.btprinter:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.rmicro.btprinter:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.rmicro.btprinter:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.rmicro.btprinter:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.rmicro.btprinter:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.rmicro.btprinter:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.rmicro.btprinter:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.rmicro.btprinter:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.rmicro.btprinter:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.rmicro.btprinter:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.rmicro.btprinter:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.rmicro.btprinter:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.rmicro.btprinter:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.rmicro.btprinter:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.rmicro.btprinter:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.rmicro.btprinter:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.rmicro.btprinter:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.rmicro.btprinter:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.rmicro.btprinter:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.rmicro.btprinter:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.rmicro.btprinter:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.rmicro.btprinter:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.rmicro.btprinter:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.rmicro.btprinter:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.rmicro.btprinter:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.rmicro.btprinter:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.rmicro.btprinter:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.rmicro.btprinter:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.rmicro.btprinter:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.rmicro.btprinter:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.rmicro.btprinter:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.rmicro.btprinter:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5227,7 +5227,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5235,11 +5235,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarDivider
+     * @attr name com.rmicro.btprinter:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5247,11 +5247,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarItemBackground
+     * @attr name com.rmicro.btprinter:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5259,11 +5259,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarPopupTheme
+     * @attr name com.rmicro.btprinter:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5280,11 +5280,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:actionBarSize
+     * @attr name com.rmicro.btprinter:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5292,11 +5292,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarSplitStyle
+     * @attr name com.rmicro.btprinter:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5304,11 +5304,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarStyle
+     * @attr name com.rmicro.btprinter:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5316,11 +5316,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarTabBarStyle
+     * @attr name com.rmicro.btprinter:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5328,11 +5328,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarTabStyle
+     * @attr name com.rmicro.btprinter:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5340,11 +5340,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarTabTextStyle
+     * @attr name com.rmicro.btprinter:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5352,11 +5352,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarTheme
+     * @attr name com.rmicro.btprinter:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5364,11 +5364,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionBarWidgetTheme
+     * @attr name com.rmicro.btprinter:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5376,11 +5376,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionButtonStyle
+     * @attr name com.rmicro.btprinter:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5388,11 +5388,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionDropDownStyle
+     * @attr name com.rmicro.btprinter:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5400,11 +5400,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionMenuTextAppearance
+     * @attr name com.rmicro.btprinter:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5415,11 +5415,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionMenuTextColor
+     * @attr name com.rmicro.btprinter:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5427,11 +5427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeBackground
+     * @attr name com.rmicro.btprinter:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5439,11 +5439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeCloseButtonStyle
+     * @attr name com.rmicro.btprinter:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5451,11 +5451,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeCloseDrawable
+     * @attr name com.rmicro.btprinter:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5463,11 +5463,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeCopyDrawable
+     * @attr name com.rmicro.btprinter:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5475,11 +5475,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeCutDrawable
+     * @attr name com.rmicro.btprinter:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5487,11 +5487,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeFindDrawable
+     * @attr name com.rmicro.btprinter:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5499,11 +5499,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModePasteDrawable
+     * @attr name com.rmicro.btprinter:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5511,11 +5511,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModePopupWindowStyle
+     * @attr name com.rmicro.btprinter:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5523,11 +5523,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeSelectAllDrawable
+     * @attr name com.rmicro.btprinter:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5535,11 +5535,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeShareDrawable
+     * @attr name com.rmicro.btprinter:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5547,11 +5547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeSplitBackground
+     * @attr name com.rmicro.btprinter:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5559,11 +5559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeStyle
+     * @attr name com.rmicro.btprinter:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5571,11 +5571,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionModeWebSearchDrawable
+     * @attr name com.rmicro.btprinter:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5583,11 +5583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionOverflowButtonStyle
+     * @attr name com.rmicro.btprinter:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5595,11 +5595,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionOverflowMenuStyle
+     * @attr name com.rmicro.btprinter:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5607,11 +5607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:activityChooserViewStyle
+     * @attr name com.rmicro.btprinter:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5619,21 +5619,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:alertDialogButtonGroupStyle
+     * @attr name com.rmicro.btprinter:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:alertDialogCenterButtons
+     * @attr name com.rmicro.btprinter:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5641,11 +5641,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:alertDialogStyle
+     * @attr name com.rmicro.btprinter:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5653,11 +5653,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:alertDialogTheme
+     * @attr name com.rmicro.btprinter:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5665,11 +5665,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:autoCompleteTextViewStyle
+     * @attr name com.rmicro.btprinter:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5677,11 +5677,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:borderlessButtonStyle
+     * @attr name com.rmicro.btprinter:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5689,11 +5689,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonBarButtonStyle
+     * @attr name com.rmicro.btprinter:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5701,11 +5701,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonBarNegativeButtonStyle
+     * @attr name com.rmicro.btprinter:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5713,11 +5713,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonBarNeutralButtonStyle
+     * @attr name com.rmicro.btprinter:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5725,11 +5725,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonBarPositiveButtonStyle
+     * @attr name com.rmicro.btprinter:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5737,11 +5737,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonBarStyle
+     * @attr name com.rmicro.btprinter:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5749,11 +5749,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonStyle
+     * @attr name com.rmicro.btprinter:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5761,11 +5761,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonStyleSmall
+     * @attr name com.rmicro.btprinter:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5773,11 +5773,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:checkboxStyle
+     * @attr name com.rmicro.btprinter:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5785,77 +5785,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:checkedTextViewStyle
+     * @attr name com.rmicro.btprinter:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorAccent
+     * @attr name com.rmicro.btprinter:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorBackgroundFloating
+     * @attr name com.rmicro.btprinter:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorButtonNormal
+     * @attr name com.rmicro.btprinter:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorControlActivated
+     * @attr name com.rmicro.btprinter:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorControlHighlight
+     * @attr name com.rmicro.btprinter:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorControlNormal
+     * @attr name com.rmicro.btprinter:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5866,44 +5866,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorError
+     * @attr name com.rmicro.btprinter:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorPrimary
+     * @attr name com.rmicro.btprinter:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorPrimaryDark
+     * @attr name com.rmicro.btprinter:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:colorSwitchThumbNormal
+     * @attr name com.rmicro.btprinter:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5911,11 +5911,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:controlBackground
+     * @attr name com.rmicro.btprinter:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dialogCornerRadius}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dialogCornerRadius}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5924,11 +5924,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:dialogCornerRadius
+     * @attr name com.rmicro.btprinter:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5937,11 +5937,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:dialogPreferredPadding
+     * @attr name com.rmicro.btprinter:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5949,11 +5949,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:dialogTheme
+     * @attr name com.rmicro.btprinter:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5961,11 +5961,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:dividerHorizontal
+     * @attr name com.rmicro.btprinter:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5973,11 +5973,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:dividerVertical
+     * @attr name com.rmicro.btprinter:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5985,11 +5985,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:dropDownListViewStyle
+     * @attr name com.rmicro.btprinter:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5998,11 +5998,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:dropdownListPreferredItemHeight
+     * @attr name com.rmicro.btprinter:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6010,11 +6010,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:editTextBackground
+     * @attr name com.rmicro.btprinter:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6025,11 +6025,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:editTextColor
+     * @attr name com.rmicro.btprinter:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6037,11 +6037,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:editTextStyle
+     * @attr name com.rmicro.btprinter:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6049,11 +6049,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:homeAsUpIndicator
+     * @attr name com.rmicro.btprinter:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6061,11 +6061,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:imageButtonStyle
+     * @attr name com.rmicro.btprinter:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6073,11 +6073,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:listChoiceBackgroundIndicator
+     * @attr name com.rmicro.btprinter:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6085,11 +6085,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:listDividerAlertDialog
+     * @attr name com.rmicro.btprinter:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6097,11 +6097,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:listMenuViewStyle
+     * @attr name com.rmicro.btprinter:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6109,11 +6109,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:listPopupWindowStyle
+     * @attr name com.rmicro.btprinter:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6122,11 +6122,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:listPreferredItemHeight
+     * @attr name com.rmicro.btprinter:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6135,11 +6135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:listPreferredItemHeightLarge
+     * @attr name com.rmicro.btprinter:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6148,11 +6148,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:listPreferredItemHeightSmall
+     * @attr name com.rmicro.btprinter:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6161,11 +6161,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:listPreferredItemPaddingLeft
+     * @attr name com.rmicro.btprinter:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6174,11 +6174,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:listPreferredItemPaddingRight
+     * @attr name com.rmicro.btprinter:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6186,11 +6186,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:panelBackground
+     * @attr name com.rmicro.btprinter:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6198,11 +6198,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:panelMenuListTheme
+     * @attr name com.rmicro.btprinter:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6211,11 +6211,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:panelMenuListWidth
+     * @attr name com.rmicro.btprinter:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6223,11 +6223,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:popupMenuStyle
+     * @attr name com.rmicro.btprinter:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6235,11 +6235,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:popupWindowStyle
+     * @attr name com.rmicro.btprinter:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6247,11 +6247,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:radioButtonStyle
+     * @attr name com.rmicro.btprinter:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6259,11 +6259,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:ratingBarStyle
+     * @attr name com.rmicro.btprinter:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6271,11 +6271,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:ratingBarStyleIndicator
+     * @attr name com.rmicro.btprinter:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6283,11 +6283,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:ratingBarStyleSmall
+     * @attr name com.rmicro.btprinter:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6295,11 +6295,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:searchViewStyle
+     * @attr name com.rmicro.btprinter:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6307,11 +6307,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:seekBarStyle
+     * @attr name com.rmicro.btprinter:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6319,11 +6319,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:selectableItemBackground
+     * @attr name com.rmicro.btprinter:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6331,11 +6331,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:selectableItemBackgroundBorderless
+     * @attr name com.rmicro.btprinter:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6343,11 +6343,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:spinnerDropDownItemStyle
+     * @attr name com.rmicro.btprinter:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6355,11 +6355,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:spinnerStyle
+     * @attr name com.rmicro.btprinter:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6367,11 +6367,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:switchStyle
+     * @attr name com.rmicro.btprinter:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6379,11 +6379,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceLargePopupMenu
+     * @attr name com.rmicro.btprinter:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6391,11 +6391,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceListItem
+     * @attr name com.rmicro.btprinter:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6403,11 +6403,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceListItemSecondary
+     * @attr name com.rmicro.btprinter:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6415,11 +6415,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceListItemSmall
+     * @attr name com.rmicro.btprinter:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6427,11 +6427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearancePopupMenuHeader
+     * @attr name com.rmicro.btprinter:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6439,11 +6439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceSearchResultSubtitle
+     * @attr name com.rmicro.btprinter:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6451,11 +6451,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceSearchResultTitle
+     * @attr name com.rmicro.btprinter:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6463,11 +6463,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textAppearanceSmallPopupMenu
+     * @attr name com.rmicro.btprinter:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6478,11 +6478,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textColorAlertDialogListItem
+     * @attr name com.rmicro.btprinter:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6493,11 +6493,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:textColorSearchUrl
+     * @attr name com.rmicro.btprinter:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6505,11 +6505,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:toolbarNavigationButtonStyle
+     * @attr name com.rmicro.btprinter:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6517,11 +6517,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:toolbarStyle
+     * @attr name com.rmicro.btprinter:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6532,11 +6532,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:tooltipForegroundColor
+     * @attr name com.rmicro.btprinter:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6544,51 +6544,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:tooltipFrameBackground
+     * @attr name com.rmicro.btprinter:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:viewInflaterClass
+     * @attr name com.rmicro.btprinter:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:windowActionBar
+     * @attr name com.rmicro.btprinter:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:windowActionBarOverlay
+     * @attr name com.rmicro.btprinter:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:windowActionModeOverlay
+     * @attr name com.rmicro.btprinter:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6601,11 +6601,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.firelotus.btprinter:windowFixedHeightMajor
+     * @attr name com.rmicro.btprinter:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6618,11 +6618,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.firelotus.btprinter:windowFixedHeightMinor
+     * @attr name com.rmicro.btprinter:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6635,11 +6635,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.firelotus.btprinter:windowFixedWidthMajor
+     * @attr name com.rmicro.btprinter:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6652,11 +6652,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.firelotus.btprinter:windowFixedWidthMinor
+     * @attr name com.rmicro.btprinter:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6669,11 +6669,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.firelotus.btprinter:windowMinWidthMajor
+     * @attr name com.rmicro.btprinter:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6686,17 +6686,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.firelotus.btprinter:windowMinWidthMinor
+     * @attr name com.rmicro.btprinter:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:windowNoTitle
+     * @attr name com.rmicro.btprinter:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -6706,7 +6706,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.firelotus.btprinter:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.rmicro.btprinter:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6714,13 +6714,13 @@ public final class R {
         0x7f020026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:allowStacking
+     * @attr name com.rmicro.btprinter:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6732,7 +6732,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.firelotus.btprinter:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.rmicro.btprinter:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -6762,12 +6762,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:alpha
+     * @attr name com.rmicro.btprinter:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -6778,8 +6778,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.firelotus.btprinter:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.firelotus.btprinter:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.rmicro.btprinter:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.rmicro.btprinter:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6801,18 +6801,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:buttonTint
+     * @attr name com.rmicro.btprinter:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6829,7 +6829,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:buttonTintMode
+     * @attr name com.rmicro.btprinter:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -6844,50 +6844,50 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.firelotus.btprinter:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.firelotus.btprinter:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.firelotus.btprinter:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.firelotus.btprinter:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.firelotus.btprinter:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.firelotus.btprinter:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.firelotus.btprinter:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.firelotus.btprinter:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.firelotus.btprinter:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.firelotus.btprinter:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.firelotus.btprinter:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.firelotus.btprinter:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.firelotus.btprinter:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.firelotus.btprinter:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.firelotus.btprinter:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.firelotus.btprinter:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.firelotus.btprinter:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.firelotus.btprinter:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.firelotus.btprinter:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.firelotus.btprinter:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.firelotus.btprinter:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.firelotus.btprinter:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.firelotus.btprinter:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.firelotus.btprinter:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.firelotus.btprinter:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.firelotus.btprinter:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.firelotus.btprinter:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.firelotus.btprinter:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.firelotus.btprinter:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.firelotus.btprinter:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.firelotus.btprinter:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.firelotus.btprinter:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.firelotus.btprinter:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.firelotus.btprinter:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.firelotus.btprinter:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.firelotus.btprinter:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.firelotus.btprinter:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.firelotus.btprinter:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.firelotus.btprinter:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.firelotus.btprinter:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.firelotus.btprinter:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.firelotus.btprinter:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.firelotus.btprinter:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.firelotus.btprinter:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.rmicro.btprinter:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.rmicro.btprinter:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.rmicro.btprinter:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.rmicro.btprinter:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.rmicro.btprinter:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.rmicro.btprinter:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.rmicro.btprinter:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.rmicro.btprinter:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.rmicro.btprinter:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.rmicro.btprinter:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.rmicro.btprinter:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.rmicro.btprinter:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.rmicro.btprinter:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.rmicro.btprinter:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.rmicro.btprinter:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.rmicro.btprinter:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.rmicro.btprinter:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.rmicro.btprinter:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.rmicro.btprinter:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.rmicro.btprinter:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.rmicro.btprinter:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.rmicro.btprinter:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.rmicro.btprinter:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.rmicro.btprinter:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.rmicro.btprinter:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.rmicro.btprinter:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.rmicro.btprinter:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.rmicro.btprinter:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.rmicro.btprinter:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.rmicro.btprinter:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.rmicro.btprinter:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.rmicro.btprinter:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.rmicro.btprinter:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.rmicro.btprinter:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.rmicro.btprinter:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.rmicro.btprinter:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.rmicro.btprinter:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.rmicro.btprinter:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.rmicro.btprinter:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.rmicro.btprinter:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.rmicro.btprinter:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.rmicro.btprinter:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.rmicro.btprinter:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.rmicro.btprinter:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -7024,7 +7024,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7032,20 +7032,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:constraintSet
+     * @attr name com.rmicro.btprinter:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBaseline_creator
+     * @attr name com.rmicro.btprinter:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7061,20 +7061,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBaseline_toBaselineOf
+     * @attr name com.rmicro.btprinter:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBottom_creator
+     * @attr name com.rmicro.btprinter:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7090,11 +7090,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBottom_toBottomOf
+     * @attr name com.rmicro.btprinter:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7110,21 +7110,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBottom_toTopOf
+     * @attr name com.rmicro.btprinter:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:layout_constraintDimensionRatio
+     * @attr name com.rmicro.btprinter:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7140,11 +7140,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintEnd_toEndOf
+     * @attr name com.rmicro.btprinter:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7160,11 +7160,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintEnd_toStartOf
+     * @attr name com.rmicro.btprinter:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7173,11 +7173,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintGuide_begin
+     * @attr name com.rmicro.btprinter:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7186,20 +7186,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintGuide_end
+     * @attr name com.rmicro.btprinter:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintGuide_percent
+     * @attr name com.rmicro.btprinter:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7212,11 +7212,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHeight_default
+     * @attr name com.rmicro.btprinter:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7225,11 +7225,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHeight_max
+     * @attr name com.rmicro.btprinter:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7238,20 +7238,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHeight_min
+     * @attr name com.rmicro.btprinter:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHorizontal_bias
+     * @attr name com.rmicro.btprinter:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7265,29 +7265,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHorizontal_chainStyle
+     * @attr name com.rmicro.btprinter:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHorizontal_weight
+     * @attr name com.rmicro.btprinter:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintLeft_creator
+     * @attr name com.rmicro.btprinter:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7303,11 +7303,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintLeft_toLeftOf
+     * @attr name com.rmicro.btprinter:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7323,20 +7323,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintLeft_toRightOf
+     * @attr name com.rmicro.btprinter:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintRight_creator
+     * @attr name com.rmicro.btprinter:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7352,11 +7352,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintRight_toLeftOf
+     * @attr name com.rmicro.btprinter:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7372,11 +7372,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintRight_toRightOf
+     * @attr name com.rmicro.btprinter:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7392,11 +7392,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintStart_toEndOf
+     * @attr name com.rmicro.btprinter:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7412,20 +7412,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintStart_toStartOf
+     * @attr name com.rmicro.btprinter:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintTop_creator
+     * @attr name com.rmicro.btprinter:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7441,11 +7441,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintTop_toBottomOf
+     * @attr name com.rmicro.btprinter:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7461,20 +7461,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintTop_toTopOf
+     * @attr name com.rmicro.btprinter:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintVertical_bias
+     * @attr name com.rmicro.btprinter:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7488,20 +7488,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintVertical_chainStyle
+     * @attr name com.rmicro.btprinter:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintVertical_weight
+     * @attr name com.rmicro.btprinter:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7514,11 +7514,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintWidth_default
+     * @attr name com.rmicro.btprinter:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7527,11 +7527,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintWidth_max
+     * @attr name com.rmicro.btprinter:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7540,11 +7540,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintWidth_min
+     * @attr name com.rmicro.btprinter:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7553,11 +7553,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_editor_absoluteX
+     * @attr name com.rmicro.btprinter:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7566,11 +7566,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_editor_absoluteY
+     * @attr name com.rmicro.btprinter:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7579,11 +7579,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginBottom
+     * @attr name com.rmicro.btprinter:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7592,11 +7592,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginEnd
+     * @attr name com.rmicro.btprinter:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7605,11 +7605,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginLeft
+     * @attr name com.rmicro.btprinter:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7618,11 +7618,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginRight
+     * @attr name com.rmicro.btprinter:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7631,11 +7631,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginStart
+     * @attr name com.rmicro.btprinter:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7644,11 +7644,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginTop
+     * @attr name com.rmicro.btprinter:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7663,7 +7663,7 @@ public final class R {
      * <tr><td>none</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_optimizationLevel
+     * @attr name com.rmicro.btprinter:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
     /**
@@ -7695,48 +7695,48 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.firelotus.btprinter:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.firelotus.btprinter:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.firelotus.btprinter:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.firelotus.btprinter:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.firelotus.btprinter:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.firelotus.btprinter:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.firelotus.btprinter:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.firelotus.btprinter:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.firelotus.btprinter:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.firelotus.btprinter:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.firelotus.btprinter:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.firelotus.btprinter:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.firelotus.btprinter:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.firelotus.btprinter:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.firelotus.btprinter:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.firelotus.btprinter:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.firelotus.btprinter:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.firelotus.btprinter:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.firelotus.btprinter:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.firelotus.btprinter:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.firelotus.btprinter:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.firelotus.btprinter:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.firelotus.btprinter:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.firelotus.btprinter:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.firelotus.btprinter:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.firelotus.btprinter:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.firelotus.btprinter:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.firelotus.btprinter:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.firelotus.btprinter:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.firelotus.btprinter:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.firelotus.btprinter:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.firelotus.btprinter:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.firelotus.btprinter:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.firelotus.btprinter:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.firelotus.btprinter:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.firelotus.btprinter:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.firelotus.btprinter:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.firelotus.btprinter:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.firelotus.btprinter:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.firelotus.btprinter:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.firelotus.btprinter:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.firelotus.btprinter:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.rmicro.btprinter:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.rmicro.btprinter:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.rmicro.btprinter:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.rmicro.btprinter:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.rmicro.btprinter:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.rmicro.btprinter:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.rmicro.btprinter:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.rmicro.btprinter:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.rmicro.btprinter:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.rmicro.btprinter:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.rmicro.btprinter:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.rmicro.btprinter:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.rmicro.btprinter:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.rmicro.btprinter:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.rmicro.btprinter:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.rmicro.btprinter:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.rmicro.btprinter:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.rmicro.btprinter:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.rmicro.btprinter:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.rmicro.btprinter:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.rmicro.btprinter:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.rmicro.btprinter:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.rmicro.btprinter:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.rmicro.btprinter:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.rmicro.btprinter:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.rmicro.btprinter:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.rmicro.btprinter:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.rmicro.btprinter:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.rmicro.btprinter:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.rmicro.btprinter:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.rmicro.btprinter:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.rmicro.btprinter:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.rmicro.btprinter:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.rmicro.btprinter:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.rmicro.btprinter:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.rmicro.btprinter:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.rmicro.btprinter:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.rmicro.btprinter:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.rmicro.btprinter:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.rmicro.btprinter:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.rmicro.btprinter:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.rmicro.btprinter:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -8116,16 +8116,16 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=21;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBaseline_creator
+     * @attr name com.rmicro.btprinter:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=22;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8141,20 +8141,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBaseline_toBaselineOf
+     * @attr name com.rmicro.btprinter:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBottom_creator
+     * @attr name com.rmicro.btprinter:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=24;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8170,11 +8170,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBottom_toBottomOf
+     * @attr name com.rmicro.btprinter:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8190,21 +8190,21 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintBottom_toTopOf
+     * @attr name com.rmicro.btprinter:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:layout_constraintDimensionRatio
+     * @attr name com.rmicro.btprinter:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=27;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8220,11 +8220,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintEnd_toEndOf
+     * @attr name com.rmicro.btprinter:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8240,11 +8240,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintEnd_toStartOf
+     * @attr name com.rmicro.btprinter:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8253,11 +8253,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintGuide_begin
+     * @attr name com.rmicro.btprinter:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=30;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8266,20 +8266,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintGuide_end
+     * @attr name com.rmicro.btprinter:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=31;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintGuide_percent
+     * @attr name com.rmicro.btprinter:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=32;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8292,11 +8292,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHeight_default
+     * @attr name com.rmicro.btprinter:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=33;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8305,11 +8305,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHeight_max
+     * @attr name com.rmicro.btprinter:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=34;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8318,20 +8318,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHeight_min
+     * @attr name com.rmicro.btprinter:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=35;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHorizontal_bias
+     * @attr name com.rmicro.btprinter:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8345,29 +8345,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHorizontal_chainStyle
+     * @attr name com.rmicro.btprinter:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintHorizontal_weight
+     * @attr name com.rmicro.btprinter:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintLeft_creator
+     * @attr name com.rmicro.btprinter:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=39;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8383,11 +8383,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintLeft_toLeftOf
+     * @attr name com.rmicro.btprinter:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8403,20 +8403,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintLeft_toRightOf
+     * @attr name com.rmicro.btprinter:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintRight_creator
+     * @attr name com.rmicro.btprinter:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=42;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8432,11 +8432,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintRight_toLeftOf
+     * @attr name com.rmicro.btprinter:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8452,11 +8452,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintRight_toRightOf
+     * @attr name com.rmicro.btprinter:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8472,11 +8472,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintStart_toEndOf
+     * @attr name com.rmicro.btprinter:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8492,20 +8492,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintStart_toStartOf
+     * @attr name com.rmicro.btprinter:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintTop_creator
+     * @attr name com.rmicro.btprinter:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=47;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8521,11 +8521,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintTop_toBottomOf
+     * @attr name com.rmicro.btprinter:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8541,20 +8541,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintTop_toTopOf
+     * @attr name com.rmicro.btprinter:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintVertical_bias
+     * @attr name com.rmicro.btprinter:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=50;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8568,20 +8568,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintVertical_chainStyle
+     * @attr name com.rmicro.btprinter:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_constraintVertical_weight
+     * @attr name com.rmicro.btprinter:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8594,11 +8594,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_constraintWidth_default
+     * @attr name com.rmicro.btprinter:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=53;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8607,11 +8607,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintWidth_max
+     * @attr name com.rmicro.btprinter:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=54;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8620,11 +8620,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_constraintWidth_min
+     * @attr name com.rmicro.btprinter:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=55;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8633,11 +8633,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_editor_absoluteX
+     * @attr name com.rmicro.btprinter:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=56;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8646,11 +8646,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_editor_absoluteY
+     * @attr name com.rmicro.btprinter:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=57;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8659,11 +8659,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginBottom
+     * @attr name com.rmicro.btprinter:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=58;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8672,11 +8672,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginEnd
+     * @attr name com.rmicro.btprinter:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=59;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8685,11 +8685,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginLeft
+     * @attr name com.rmicro.btprinter:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=60;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8698,11 +8698,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginRight
+     * @attr name com.rmicro.btprinter:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=61;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8711,11 +8711,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginStart
+     * @attr name com.rmicro.btprinter:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=62;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8724,7 +8724,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:layout_goneMarginTop
+     * @attr name com.rmicro.btprinter:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=63;
     /**
@@ -8734,8 +8734,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.firelotus.btprinter:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.firelotus.btprinter:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.rmicro.btprinter:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.rmicro.btprinter:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -8744,7 +8744,7 @@ public final class R {
         0x7f02008e, 0x7f0200fc
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8752,11 +8752,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:keylines
+     * @attr name com.rmicro.btprinter:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8767,7 +8767,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:statusBarBackground
+     * @attr name com.rmicro.btprinter:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -8778,12 +8778,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.firelotus.btprinter:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.firelotus.btprinter:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.firelotus.btprinter:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.firelotus.btprinter:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.firelotus.btprinter:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.firelotus.btprinter:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.rmicro.btprinter:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.rmicro.btprinter:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.rmicro.btprinter:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.rmicro.btprinter:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.rmicro.btprinter:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.rmicro.btprinter:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -8827,7 +8827,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8835,11 +8835,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:layout_anchor
+     * @attr name com.rmicro.btprinter:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8864,21 +8864,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_anchorGravity
+     * @attr name com.rmicro.btprinter:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:layout_behavior
+     * @attr name com.rmicro.btprinter:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8897,11 +8897,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_dodgeInsetEdges
+     * @attr name com.rmicro.btprinter:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8919,16 +8919,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:layout_insetEdge
+     * @attr name com.rmicro.btprinter:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:layout_keyline
+     * @attr name com.rmicro.btprinter:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -8938,14 +8938,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.firelotus.btprinter:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.firelotus.btprinter:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.firelotus.btprinter:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.firelotus.btprinter:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.firelotus.btprinter:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.firelotus.btprinter:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.firelotus.btprinter:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.firelotus.btprinter:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.rmicro.btprinter:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.rmicro.btprinter:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.rmicro.btprinter:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.rmicro.btprinter:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.rmicro.btprinter:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.rmicro.btprinter:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.rmicro.btprinter:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.rmicro.btprinter:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -8961,7 +8961,7 @@ public final class R {
         0x7f02006a, 0x7f02007f, 0x7f0200f6, 0x7f020114
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8970,11 +8970,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:arrowHeadLength
+     * @attr name com.rmicro.btprinter:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8983,11 +8983,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:arrowShaftLength
+     * @attr name com.rmicro.btprinter:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8996,22 +8996,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:barLength
+     * @attr name com.rmicro.btprinter:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:color
+     * @attr name com.rmicro.btprinter:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9020,11 +9020,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:drawableSize
+     * @attr name com.rmicro.btprinter:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9033,21 +9033,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:gapBetweenBars
+     * @attr name com.rmicro.btprinter:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:spinBars
+     * @attr name com.rmicro.btprinter:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9056,7 +9056,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:thickness
+     * @attr name com.rmicro.btprinter:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -9066,12 +9066,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.firelotus.btprinter:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.firelotus.btprinter:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.firelotus.btprinter:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.firelotus.btprinter:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.firelotus.btprinter:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.firelotus.btprinter:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.rmicro.btprinter:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.rmicro.btprinter:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.rmicro.btprinter:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.rmicro.btprinter:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.rmicro.btprinter:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.rmicro.btprinter:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -9085,17 +9085,17 @@ public final class R {
         0x7f02007a, 0x7f02007b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:fontProviderAuthority
+     * @attr name com.rmicro.btprinter:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9103,11 +9103,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:fontProviderCerts
+     * @attr name com.rmicro.btprinter:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9120,11 +9120,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:fontProviderFetchStrategy
+     * @attr name com.rmicro.btprinter:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9137,27 +9137,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:fontProviderFetchTimeout
+     * @attr name com.rmicro.btprinter:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:fontProviderPackage
+     * @attr name com.rmicro.btprinter:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:fontProviderQuery
+     * @attr name com.rmicro.btprinter:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -9172,11 +9172,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.firelotus.btprinter:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.firelotus.btprinter:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.firelotus.btprinter:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.firelotus.btprinter:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.firelotus.btprinter:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.rmicro.btprinter:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.rmicro.btprinter:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.rmicro.btprinter:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.rmicro.btprinter:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.rmicro.btprinter:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -9252,7 +9252,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9260,11 +9260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:font
+     * @attr name com.rmicro.btprinter:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9277,35 +9277,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:fontStyle
+     * @attr name com.rmicro.btprinter:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:fontVariationSettings
+     * @attr name com.rmicro.btprinter:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:fontWeight
+     * @attr name com.rmicro.btprinter:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.firelotus.btprinter:ttcIndex
+     * @attr name com.rmicro.btprinter:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -9575,10 +9575,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.firelotus.btprinter:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.firelotus.btprinter:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.firelotus.btprinter:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.firelotus.btprinter:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.rmicro.btprinter:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.rmicro.btprinter:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.rmicro.btprinter:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.rmicro.btprinter:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -9670,7 +9670,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9678,11 +9678,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:divider
+     * @attr name com.rmicro.btprinter:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9691,21 +9691,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:dividerPadding
+     * @attr name com.rmicro.btprinter:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:measureWithLargestChild
+     * @attr name com.rmicro.btprinter:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9720,7 +9720,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:showDividers
+     * @attr name com.rmicro.btprinter:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -9992,16 +9992,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.firelotus.btprinter:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.firelotus.btprinter:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.firelotus.btprinter:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.firelotus.btprinter:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.firelotus.btprinter:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.firelotus.btprinter:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.firelotus.btprinter:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.firelotus.btprinter:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.firelotus.btprinter:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.firelotus.btprinter:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.rmicro.btprinter:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.rmicro.btprinter:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.rmicro.btprinter:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.rmicro.btprinter:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.rmicro.btprinter:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.rmicro.btprinter:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.rmicro.btprinter:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.rmicro.btprinter:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.rmicro.btprinter:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.rmicro.btprinter:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -10178,7 +10178,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10186,31 +10186,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:actionLayout
+     * @attr name com.rmicro.btprinter:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:actionProviderClass
+     * @attr name com.rmicro.btprinter:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:actionViewClass
+     * @attr name com.rmicro.btprinter:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10227,32 +10227,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:alphabeticModifiers
+     * @attr name com.rmicro.btprinter:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:contentDescription
+     * @attr name com.rmicro.btprinter:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:iconTint
+     * @attr name com.rmicro.btprinter:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10269,11 +10269,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:iconTintMode
+     * @attr name com.rmicro.btprinter:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10290,11 +10290,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:numericModifiers
+     * @attr name com.rmicro.btprinter:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10310,17 +10310,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:showAsAction
+     * @attr name com.rmicro.btprinter:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:tooltipText
+     * @attr name com.rmicro.btprinter:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -10337,8 +10337,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.firelotus.btprinter:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.firelotus.btprinter:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.rmicro.btprinter:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.rmicro.btprinter:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -10443,17 +10443,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:preserveIconSpacing
+     * @attr name com.rmicro.btprinter:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10461,7 +10461,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:subMenuArrow
+     * @attr name com.rmicro.btprinter:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -10473,7 +10473,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.firelotus.btprinter:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.rmicro.btprinter:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -10510,13 +10510,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:overlapAnchor
+     * @attr name com.rmicro.btprinter:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -10526,7 +10526,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.firelotus.btprinter:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.rmicro.btprinter:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -10534,13 +10534,13 @@ public final class R {
         0x7f0200fb
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:state_above_anchor
+     * @attr name com.rmicro.btprinter:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -10550,8 +10550,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.firelotus.btprinter:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.firelotus.btprinter:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.rmicro.btprinter:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.rmicro.btprinter:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -10560,7 +10560,7 @@ public final class R {
         0x7f0200d8, 0x7f0200db
       };
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10569,11 +10569,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:paddingBottomNoButtons
+     * @attr name com.rmicro.btprinter:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10582,7 +10582,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:paddingTopNoTitle
+     * @attr name com.rmicro.btprinter:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -10596,19 +10596,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.firelotus.btprinter:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.firelotus.btprinter:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.firelotus.btprinter:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.firelotus.btprinter:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.firelotus.btprinter:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.firelotus.btprinter:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.firelotus.btprinter:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.firelotus.btprinter:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.firelotus.btprinter:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.firelotus.btprinter:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.firelotus.btprinter:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.firelotus.btprinter:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.firelotus.btprinter:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.rmicro.btprinter:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.rmicro.btprinter:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.rmicro.btprinter:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.rmicro.btprinter:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.rmicro.btprinter:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.rmicro.btprinter:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.rmicro.btprinter:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.rmicro.btprinter:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.rmicro.btprinter:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.rmicro.btprinter:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.rmicro.btprinter:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.rmicro.btprinter:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.rmicro.btprinter:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -10746,7 +10746,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10754,11 +10754,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:closeIcon
+     * @attr name com.rmicro.btprinter:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10766,21 +10766,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:commitIcon
+     * @attr name com.rmicro.btprinter:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:defaultQueryHint
+     * @attr name com.rmicro.btprinter:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10788,21 +10788,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:goIcon
+     * @attr name com.rmicro.btprinter:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:iconifiedByDefault
+     * @attr name com.rmicro.btprinter:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10810,11 +10810,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:layout
+     * @attr name com.rmicro.btprinter:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10822,21 +10822,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:queryBackground
+     * @attr name com.rmicro.btprinter:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:queryHint
+     * @attr name com.rmicro.btprinter:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10844,11 +10844,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:searchHintIcon
+     * @attr name com.rmicro.btprinter:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10856,11 +10856,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:searchIcon
+     * @attr name com.rmicro.btprinter:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10868,11 +10868,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:submitBackground
+     * @attr name com.rmicro.btprinter:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10880,11 +10880,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:suggestionRowLayout
+     * @attr name com.rmicro.btprinter:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10892,7 +10892,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:voiceIcon
+     * @attr name com.rmicro.btprinter:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -10906,7 +10906,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.firelotus.btprinter:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.rmicro.btprinter:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -10981,7 +10981,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10989,7 +10989,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:popupTheme
+     * @attr name com.rmicro.btprinter:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -11111,17 +11111,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.firelotus.btprinter:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.firelotus.btprinter:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.firelotus.btprinter:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.firelotus.btprinter:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.firelotus.btprinter:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.firelotus.btprinter:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.firelotus.btprinter:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.firelotus.btprinter:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.firelotus.btprinter:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.firelotus.btprinter:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.firelotus.btprinter:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.rmicro.btprinter:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.rmicro.btprinter:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.rmicro.btprinter:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.rmicro.btprinter:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.rmicro.btprinter:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.rmicro.btprinter:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.rmicro.btprinter:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.rmicro.btprinter:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.rmicro.btprinter:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.rmicro.btprinter:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.rmicro.btprinter:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -11177,27 +11177,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:showText
+     * @attr name com.rmicro.btprinter:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:splitTrack
+     * @attr name com.rmicro.btprinter:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11206,11 +11206,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:switchMinWidth
+     * @attr name com.rmicro.btprinter:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11219,11 +11219,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:switchPadding
+     * @attr name com.rmicro.btprinter:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11231,11 +11231,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:switchTextAppearance
+     * @attr name com.rmicro.btprinter:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11244,22 +11244,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:thumbTextPadding
+     * @attr name com.rmicro.btprinter:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:thumbTint
+     * @attr name com.rmicro.btprinter:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11276,11 +11276,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:thumbTintMode
+     * @attr name com.rmicro.btprinter:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11288,22 +11288,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:track
+     * @attr name com.rmicro.btprinter:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:trackTint
+     * @attr name com.rmicro.btprinter:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11320,7 +11320,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:trackTintMode
+     * @attr name com.rmicro.btprinter:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -11341,8 +11341,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.firelotus.btprinter:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.firelotus.btprinter:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.rmicro.btprinter:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.rmicro.btprinter:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11508,17 +11508,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:fontFamily
+     * @attr name com.rmicro.btprinter:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11528,7 +11528,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.firelotus.btprinter:textAllCaps
+     * @attr name com.rmicro.btprinter:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -11540,33 +11540,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.firelotus.btprinter:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.firelotus.btprinter:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.firelotus.btprinter:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.firelotus.btprinter:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.firelotus.btprinter:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.firelotus.btprinter:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.firelotus.btprinter:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.firelotus.btprinter:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.firelotus.btprinter:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.firelotus.btprinter:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.firelotus.btprinter:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.firelotus.btprinter:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.firelotus.btprinter:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.firelotus.btprinter:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.firelotus.btprinter:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.firelotus.btprinter:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.firelotus.btprinter:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.firelotus.btprinter:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.firelotus.btprinter:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.firelotus.btprinter:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.firelotus.btprinter:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.firelotus.btprinter:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.firelotus.btprinter:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.firelotus.btprinter:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.firelotus.btprinter:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.firelotus.btprinter:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.firelotus.btprinter:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.rmicro.btprinter:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.rmicro.btprinter:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.rmicro.btprinter:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.rmicro.btprinter:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.rmicro.btprinter:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.rmicro.btprinter:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.rmicro.btprinter:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.rmicro.btprinter:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.rmicro.btprinter:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.rmicro.btprinter:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.rmicro.btprinter:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.rmicro.btprinter:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.rmicro.btprinter:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.rmicro.btprinter:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.rmicro.btprinter:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.rmicro.btprinter:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.rmicro.btprinter:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.rmicro.btprinter:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.rmicro.btprinter:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.rmicro.btprinter:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.rmicro.btprinter:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.rmicro.btprinter:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.rmicro.btprinter:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.rmicro.btprinter:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.rmicro.btprinter:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.rmicro.btprinter:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.rmicro.btprinter:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -11651,7 +11651,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11664,21 +11664,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:buttonGravity
+     * @attr name com.rmicro.btprinter:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:collapseContentDescription
+     * @attr name com.rmicro.btprinter:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11686,11 +11686,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:collapseIcon
+     * @attr name com.rmicro.btprinter:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11699,11 +11699,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetEnd
+     * @attr name com.rmicro.btprinter:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11712,11 +11712,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetEndWithActions
+     * @attr name com.rmicro.btprinter:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11725,11 +11725,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetLeft
+     * @attr name com.rmicro.btprinter:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11738,11 +11738,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetRight
+     * @attr name com.rmicro.btprinter:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11751,11 +11751,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetStart
+     * @attr name com.rmicro.btprinter:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11764,11 +11764,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:contentInsetStartWithNavigation
+     * @attr name com.rmicro.btprinter:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11776,21 +11776,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:logo
+     * @attr name com.rmicro.btprinter:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:logoDescription
+     * @attr name com.rmicro.btprinter:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11799,21 +11799,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:maxButtonHeight
+     * @attr name com.rmicro.btprinter:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:navigationContentDescription
+     * @attr name com.rmicro.btprinter:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11821,11 +11821,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:navigationIcon
+     * @attr name com.rmicro.btprinter:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11833,21 +11833,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:popupTheme
+     * @attr name com.rmicro.btprinter:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:subtitle
+     * @attr name com.rmicro.btprinter:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11855,32 +11855,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:subtitleTextAppearance
+     * @attr name com.rmicro.btprinter:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:subtitleTextColor
+     * @attr name com.rmicro.btprinter:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.firelotus.btprinter:title
+     * @attr name com.rmicro.btprinter:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11889,11 +11889,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:titleMargin
+     * @attr name com.rmicro.btprinter:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11902,11 +11902,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:titleMarginBottom
+     * @attr name com.rmicro.btprinter:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11915,11 +11915,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:titleMarginEnd
+     * @attr name com.rmicro.btprinter:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11928,11 +11928,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:titleMarginStart
+     * @attr name com.rmicro.btprinter:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11941,11 +11941,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:titleMarginTop
+     * @attr name com.rmicro.btprinter:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11954,11 +11954,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:titleMargins
+     * @attr name com.rmicro.btprinter:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11966,18 +11966,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:titleTextAppearance
+     * @attr name com.rmicro.btprinter:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:titleTextColor
+     * @attr name com.rmicro.btprinter:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -11989,9 +11989,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.firelotus.btprinter:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.firelotus.btprinter:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.firelotus.btprinter:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.rmicro.btprinter:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.rmicro.btprinter:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.rmicro.btprinter:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -12034,7 +12034,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12043,11 +12043,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:paddingEnd
+     * @attr name com.rmicro.btprinter:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12056,11 +12056,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.firelotus.btprinter:paddingStart
+     * @attr name com.rmicro.btprinter:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12068,7 +12068,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.firelotus.btprinter:theme
+     * @attr name com.rmicro.btprinter:theme
      */
     public static final int View_theme=4;
     /**
@@ -12079,8 +12079,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.firelotus.btprinter:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.firelotus.btprinter:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.rmicro.btprinter:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.rmicro.btprinter:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -12105,18 +12105,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.firelotus.btprinter:backgroundTint
+     * @attr name com.rmicro.btprinter:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.firelotus.btprinter.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.rmicro.btprinter.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12133,7 +12133,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.firelotus.btprinter:backgroundTintMode
+     * @attr name com.rmicro.btprinter:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

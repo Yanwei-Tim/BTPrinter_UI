@@ -1,4 +1,4 @@
-#Wed Jul 31 00:05:24 CST 2019
-base.0=D\:\\Tim-APP\\TIM-BTPrinter\\BtPrinter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\112
+#Wed Jul 31 23:59:12 CST 2019
+base.0=D\:\\Tim-APP\\TIM-BTPrinter\\BTPrinter_SDK2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\22
 path.0=classes.dex
 renamed.0=classes.dex

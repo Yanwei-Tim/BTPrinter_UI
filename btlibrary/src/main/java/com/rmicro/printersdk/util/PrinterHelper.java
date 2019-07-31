@@ -102,7 +102,7 @@ public class PrinterHelper implements Serializable {
     //走纸命令  1B 4A m  m表示走纸点行数   0 ≤ m ≤ 255
     public static final byte[] SET_PRINTER_PAGE_RUN = getByteArray(0x1B, 0x4A);
     //走纸命令  走到下个标签  十六进制码	1B 0C
-    public static final byte[] SET_PRINTER_PAGE_RUN_NEXT = getByteArray(0x1B, 0x0C);
+    public static final byte[] SET_PRINTER_PAGE_RUN_NEXT = getByteArray(0x1B, 0x69);
     //打印字体／图片行间距 命令头
     public static final byte[] PRINT_LINESPACE = getByteArray(0x1B, 0x31);
 
@@ -151,10 +151,34 @@ public class PrinterHelper implements Serializable {
         WriteData(PRINT_PAGE_TYPE_SET);
     }
 
+    /*
+    * HEX:		1B  29  L0 L1 wL wH  hL  hH  m
+        打印点行数：w=( L0 + L1 × 256)，表示当前打印标签数据总共点行数
+        纸张宽度：w=( wL + wH × 256)
+        纸张高度或长度：h=( hL + hH × 256)
+        如果h为0表示当前的纸张不限定打印长度
+        m表示纸张间缝隙或打孔纸孔直径（预切割标签纸，打孔纸独有），其他类型纸张默认为0。
+        高度和宽度设置的单位为mm。
+        精度为0.1mm
+    * */
+    public static void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m) throws Exception {
+        byte[] PRINT_LABEL_PARAM_SET = new byte[9];
+        System.arraycopy(SET_PRINTER_CONFIG, 0, PRINT_LABEL_PARAM_SET, 0, SET_PRINTER_CONFIG.length);
+        PRINT_LABEL_PARAM_SET[2] = (byte)l0;
+        PRINT_LABEL_PARAM_SET[3] = (byte)l1;
+        PRINT_LABEL_PARAM_SET[4] = (byte)wL;
+        PRINT_LABEL_PARAM_SET[5] = (byte)wH;
+        PRINT_LABEL_PARAM_SET[6] = (byte)hL;
+        PRINT_LABEL_PARAM_SET[7] = (byte)hH;
+        PRINT_LABEL_PARAM_SET[8] = (byte)m;
+        WriteData(PRINT_LABEL_PARAM_SET);
+
+    }
+
     // 打印机走纸设置 ： 0 ≤ m ≤ 255
     public static void setPrinterPageRun(int val) throws Exception {
         byte[] PRINT_PAGE_RUN_SET = new byte[3];
-        System.arraycopy(PRINT_PAGE_RUN_SET, 0, PRINT_PAGE_RUN_SET, 0, SET_PRINTER_PAGE_RUN.length);
+        System.arraycopy(SET_PRINTER_PAGE_RUN, 0, PRINT_PAGE_RUN_SET, 0, SET_PRINTER_PAGE_RUN.length);
         PRINT_PAGE_RUN_SET[2] = (byte)val;
         WriteData(PRINT_PAGE_RUN_SET);
     }
@@ -176,32 +200,62 @@ public class PrinterHelper implements Serializable {
         byte[] var1 = new byte[4];
         WriteData(GET_PRINTER_STATUS);
         var1 = ReadData(3);
-        if (var1 != null && var1[0]== 0x1B && var1[1] == 0x06) {
-            var0 = var1[2] & 255;
-            if((int)(var0 & 0x01) == 0)
-                status = 0;
-            if((int)(var0 & 0x01) == 1)
-                status = 1;
-            if((int)(var0 & 0x02) == 0)
-                status = 2;
-            if((int)(var0 & 0x02) == 2)
-                status = 3;
-            if((int)(var0 & 0x04) == 0)
-                status = 4;
-            if((int)(var0 & 0x04) == 4)
-                status = 5;
-            if((int)(var0 & 0x08) == 0)
-                status = 6;
-            if((int)(var0 & 0x08) == 8)
-                status = 7;
-            if((int)(var0 & 0x10) == 0)
-                status = 8;
-            if((int)(var0 & 0x10) == 16)
-                status = 9;
-            if((int)(var0 & 0x20) == 0)
-                status = 10;
-            if((int)(var0 & 0x20) == 32)
-                status = 11;
+        if (var1 != null ){
+
+            if(var1[0]== 0x11 && var1[0]== 0x1B && var1[1] == 0x06) {
+                var0 = var1[3] & 255;
+                if ((int) (var0 & 0x01) == 0)
+                    status = 0;
+                if ((int) (var0 & 0x01) == 1)
+                    status = 1;
+                if ((int) (var0 & 0x02) == 0)
+                    status = 2;
+                if ((int) (var0 & 0x02) == 2)
+                    status = 3;
+                if ((int) (var0 & 0x04) == 0)
+                    status = 4;
+                if ((int) (var0 & 0x04) == 4)
+                    status = 5;
+                if ((int) (var0 & 0x08) == 0)
+                    status = 6;
+                if ((int) (var0 & 0x08) == 8)
+                    status = 7;
+                if ((int) (var0 & 0x10) == 0)
+                    status = 8;
+                if ((int) (var0 & 0x10) == 16)
+                    status = 9;
+                if ((int) (var0 & 0x20) == 0)
+                    status = 10;
+                if ((int) (var0 & 0x20) == 32)
+                    status = 11;
+
+            }else if(var1[0]== 0x1B && var1[1] == 0x06) {
+                var0 = var1[2] & 255;
+                if ((int) (var0 & 0x01) == 0)
+                    status = 0;
+                if ((int) (var0 & 0x01) == 1)
+                    status = 1;
+                if ((int) (var0 & 0x02) == 0)
+                    status = 2;
+                if ((int) (var0 & 0x02) == 2)
+                    status = 3;
+                if ((int) (var0 & 0x04) == 0)
+                    status = 4;
+                if ((int) (var0 & 0x04) == 4)
+                    status = 5;
+                if ((int) (var0 & 0x08) == 0)
+                    status = 6;
+                if ((int) (var0 & 0x08) == 8)
+                    status = 7;
+                if ((int) (var0 & 0x10) == 0)
+                    status = 8;
+                if ((int) (var0 & 0x10) == 16)
+                    status = 9;
+                if ((int) (var0 & 0x20) == 0)
+                    status = 10;
+                if ((int) (var0 & 0x20) == 32)
+                    status = 11;
+            }
 
             Log.d(TAG, "获取打印机状态：" + status);
             return status;
@@ -220,6 +274,7 @@ public class PrinterHelper implements Serializable {
         byte[] var1 = new byte[32];
         WriteData(GET_PRINTER_MODEL);
         var1 = ReadData(3);
+        Log.d(TAG, "var1 ：" + bytesToHexString(var1));
         if (var1 != null && var1[0]== 0x1B && var1[1] == 0x18) {
             length = var1[2]& 255;
             if(length > 0) {

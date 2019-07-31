@@ -2,6 +2,8 @@ package com.rmicro.btprinter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -20,6 +22,7 @@ import com.rmicro.printersdk.listener.BluetoothStateListener;
 import com.rmicro.printersdk.listener.IReceiveDataListener;
 import com.rmicro.printersdk.util.PrinterHelper;
 
+import java.io.InputStream;
 import java.util.Arrays;
 
 public class BtPrinterActivity extends AppCompatActivity implements View.OnClickListener {
@@ -152,7 +155,17 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
                 startBtCmdService(ConstantDefine.ACTION_PRINT_TEST);
                 break;
             case R.id.btn_imgprintTest:
-                startBtCmdService(ConstantDefine.ACTION_IMG_PRINT_TEST);
+                //startBtCmdService(ConstantDefine.ACTION_IMG_PRINT_TEST);
+                //设置纸张类型
+                setPrinterPageType(2);//间隙纸张
+                //设置标签规格
+                setPrinterLabelParam(17,0,144,1,0,2,0);//(44,0,32,0,28,0,0);
+                //走纸10点 --> 与标签顶部距离10点
+                setPrinterPageRun(10);
+                //打印图形
+                printImage();
+                //走纸一张标签 --> 出纸张一张标签
+                setPrinterPageRunNext();
                 break;
             case R.id.btn_getPrintStatus:
                 //startBtCmdService(ConstantDefine.ACTION_GET_PRINT_STATUS);
@@ -162,11 +175,14 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
                 startBtCmdService(ConstantDefine.ACTION_GET_PRINT_PARAM);
                 break;
             case R.id.btn_getPrintVersion:
+                Log.d(TAG, "model: " +  getPrinterModel());
                 break;
             case R.id.btn_getPrintID:
                 startBtCmdService(ConstantDefine.ACTION_GET_PRINT_ID);
                 break;
             case R.id.btn_reSet:
+                //setPrinterPageRunNext();
+                //setPrinterPageRun(100);
                 break;
             default:
                 break;
@@ -209,6 +225,23 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
         }
         try {
             PrinterHelper.setPrinterChroma(type);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    /*
+    *打印点行数：w=( L0 + L1 × 256)，表示当前打印标签数据总共点行数 ---> 图片像素
+    *纸张宽度：w=( wL + wH × 256)
+    *纸张高度或长度：h=( hL + hH × 256)
+    *如果h为0表示当前的纸张不限定打印长度
+    *m表示纸张间缝隙或打孔纸孔直径（预切割标签纸，打孔纸独有），其他类型纸张默认为0。
+    *高度和宽度设置的单位为mm。
+    *精度为0.1mm
+    */
+    private void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m){
+        try {
+            PrinterHelper.setPrinterLabelParam(l0,l1,wL,wH,hL,hH,m);
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -264,6 +297,29 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
             e.printStackTrace();
         }
         return model_no;
+    }
+
+    private void printImage() {
+        Log.d(TAG, "printTest..");
+        try {
+            InputStream inbmp = this.getResources().getAssets().open("logo_sto_print1.png");
+            Bitmap bitmap = BitmapFactory.decodeStream(inbmp);
+            byte[] add = PrinterHelper.getByteArray(0x00);
+            int[] sourceData = PrinterHelper.getBitmapData(bitmap);
+            byte[] data = PrinterHelper.getByteArray(sourceData);
+            int sendLen = bitmap.getWidth();//
+            byte[] ImageCMD = PrinterHelper.getImageCmd(PrinterHelper.IMAGECMD, sendLen);
+
+            for (int i = 0; i < data.length / sendLen; i++) {
+                byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1)
+                        * sendLen);
+                byte[] stemp = PrinterHelper.concat(temp, PrinterHelper.WRAP_PRINT);
+                byte[] printData = PrinterHelper.concat(ImageCMD, stemp);
+                PrinterHelper.WriteData(printData);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void startBtCmdService(String action) {
