@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Tim-APP\\TIM-BTPrinter\\BtPrinter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "E:\\TIM-WORK\\APP\\BTPrinter_SDK2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yoga3\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\da333c93ad5ca9bebaacc84596154dce\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\TIM\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f1977eb979639bb4f6fcbbc8951e3459\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

@@ -1,71 +1,71 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
 	package
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:2:5-36
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:1-22:12
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:1:11-69
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:1:11-69
 uses-feature#android.hardware.location.gps
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:5:5-66
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:5:19-63
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:5:19-63
 uses-permission#android.permission.BLUETOOTH
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:8:5-68
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:8:5-68
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:8:22-65
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:8:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:9:5-74
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:9:5-74
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:9:22-71
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:9:22-71
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:10:5-79
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:10:22-76
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:11:5-81
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:11:22-78
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:11:22-78
 application
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:13:5-20:19
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:13:5-20:19
 	android:supportsRtl
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:17:9-35
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:16:9-41
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:16:9-41
 	android:allowBackup
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:15:9-35
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:14:9-60
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:14:9-60
 service#com.rmicro.printersdk.BtCmdService
-ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:19:9-49
+ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:19:9-49
 	android:name
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml:19:18-46
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml:19:18-46
 uses-sdk
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		ADDED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
-		INJECTED from D:\Tim-APP\TIM-BTPrinter\BtPrinter\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		ADDED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\TIM-WORK\APP\BTPrinter_SDK2\btlibrary\src\main\AndroidManifest.xml
