@@ -1577,15 +1577,17 @@ public class PrinterHelper implements Serializable {
         int width = bitmap.getWidth();
         int height = bitmap.getHeight();
         int[] pixels = new int[width * height];
+        byte[] bytes = new byte[width * height];
         bitmap.getPixels(pixels, 0, width, 0, 0, width, height);
         for (int i = 0; i < pixels.length; i++) {
-
             if (pixels[i] == WITER) {
                 pixels[i] = 0;
             } else {
                 pixels[i] = 1;
             }
+            bytes[i] = (byte)pixels[i];
         }
+        Log.d(TAG,"getBitmapData pixels  : " + bytesToHexString(bytes));
         return get8BitData(pixels, width, height);
     }
 
@@ -1601,6 +1603,7 @@ public class PrinterHelper implements Serializable {
     //获得8bit数据
     public static int[] get8BitData(int[] source, int width, int height) {
         int[] targData = new int[width * height / 8];
+        byte[] bytes = new byte[width * height /8 ];
         // 组织数据
         for (int i = 0; i < height / 8; i++) {
             for (int j = 0; j < width; j++) {
@@ -1609,8 +1612,10 @@ public class PrinterHelper implements Serializable {
                     temp[k] = source[(k + i * 8) * width + j];
                 }
                 targData[i * width + j] = binaryToDecimal(temp);
+                bytes[i * width + j] = (byte)targData[i * width + j];
             }
         }
+        Log.d(TAG,"get8BitData targData  : " + bytesToHexString(bytes));
         return targData;
     }
 
@@ -1672,6 +1677,14 @@ public class PrinterHelper implements Serializable {
         end[0] = Integer.parseInt(result[0], 16);
         end[1] = Integer.parseInt(result[1], 16);
         return concat(CMD, getByteArray(end));
+    }
+
+    public static byte[] getImageCmd2(byte[] CMD, int width) {
+        byte[] end = new byte[3];
+        end[0] = 0x01;
+        end[1] = (byte)width;
+        end[2] = 0x00;
+        return concat(CMD, end);
     }
 
     /**
