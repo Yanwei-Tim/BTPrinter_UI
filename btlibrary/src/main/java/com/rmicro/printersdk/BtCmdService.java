@@ -170,12 +170,11 @@ public class BtCmdService extends IntentService {
             int[] sourceData = PrinterHelper.getBitmapData(bitmap);
             byte[] data = PrinterHelper.getByteArray(sourceData);
             PrinterHelper.setPrinterSpace(add[0]);//行间距
-            int sendLen = bitmap.getWidth();//
-            byte[] ImageCMD = PrinterHelper.getImageCmd(PrinterHelper.IMAGECMD, sendLen);
+            int sendLen = bitmap.getWidth()/8;//
+            byte[] ImageCMD = PrinterHelper.getImageCmd2(PrinterHelper.SET_PRINTER_IMAGE2, sendLen);
 
-            for (int i = 0; i < data.length / sendLen; i++) {
-                byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1)
-                        * sendLen);
+            for (int i = 0; i < bitmap.getHeight(); i++) {
+                byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1) * sendLen);
                 byte[] stemp = PrinterHelper.concat(temp, PrinterHelper.WRAP_PRINT);
                 byte[] printData = PrinterHelper.concat(ImageCMD, stemp);
                 print(printData);
