@@ -163,7 +163,10 @@ public class BtCmdService extends IntentService {
 
     private void printImage() {
         Log.d(TAG, "printTest..");
+
         try {
+            PrinterHelper.setPrinterPageType(2);
+            PrinterHelper.setPrinterPageRun(0);
             InputStream inbmp = this.getResources().getAssets().open("logo_sto_print1.png");
             Bitmap bitmap = BitmapFactory.decodeStream(inbmp);
             byte[] add = PrinterHelper.getByteArray(0x00);
@@ -172,13 +175,14 @@ public class BtCmdService extends IntentService {
             PrinterHelper.setPrinterSpace(add[0]);//行间距
             int sendLen = bitmap.getWidth()/8;//
             byte[] ImageCMD = PrinterHelper.getImageCmd2(PrinterHelper.SET_PRINTER_IMAGE2, sendLen);
-
+            PrinterHelper.setPrinterLabelParam(bitmap.getWidth(),bitmap.getHeight(),0);
             for (int i = 0; i < bitmap.getHeight(); i++) {
                 byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1) * sendLen);
                 byte[] stemp = PrinterHelper.concat(temp, PrinterHelper.WRAP_PRINT);
                 byte[] printData = PrinterHelper.concat(ImageCMD, stemp);
                 print(printData);
             }
+            PrinterHelper.setPrinterPageRunNext();
         } catch (Exception e) {
             e.printStackTrace();
         }

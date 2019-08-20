@@ -448,11 +448,11 @@ public class BtService {
                 //清空上次返回值
                 currentCMDReadData = null;
                 //SNBC清除禁止打印状态
-                if (data != null && data.length > 1 && data[0] == 0x21) {
-                    Log.d(TAG, "**SNBC**");
-                    mmOutputStream.write(new byte[]{0x1b, 0x41});
-                }
-                Log.d(TAG, "write  " + Arrays.toString(data));
+                //if (data != null && data.length > 1 && data[0] == 0x21) {
+                //    Log.d(TAG, "**SNBC**");
+                //    mmOutputStream.write(new byte[]{0x1b, 0x41});
+                //}
+                //Log.d(TAG, "write  " + Arrays.toString(data));
                 mmOutputStream.write(data);
                 mmOutputStream.flush();
                 mHandler.obtainMessage(ConstantDefine.MESSAGE_STATE_WRITE, -1, -1, data).sendToTarget();

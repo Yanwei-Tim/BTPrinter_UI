@@ -161,8 +161,40 @@ public class PrinterHelper implements Serializable {
         高度和宽度设置的单位为mm。
         精度为0.1mm
     * */
-    public static void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m) throws Exception {
+    //public static void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m) throws Exception {
+    public static void setPrinterLabelParam(int width,int height,int m) throws Exception {
         byte[] PRINT_LABEL_PARAM_SET = new byte[9];
+        int l0;
+        int l1;
+        int wL;
+        int wH;
+        int hL;
+        int hH;
+
+        if(width  >= 256) {
+            wL = (width) % 256;
+            wH = (width) / 256;
+        }else{
+            wL = (width);
+            wH = 0;
+        }
+
+        if(height >= 256) {
+            hL = (height) % 256;
+            hH = (height) / 256;
+        }else{
+            hL = (height);
+            hH = 0;
+        }
+
+        if((width * height)/10 >= 256){
+            l0 = ((width * height)/10) % 256;
+            l1 = ((width * height)/10) / 256;
+        }else{
+            l0 = ((width * height)/10);
+            l1 = 0;
+        }
+
         System.arraycopy(SET_PRINTER_CONFIG, 0, PRINT_LABEL_PARAM_SET, 0, SET_PRINTER_CONFIG.length);
         PRINT_LABEL_PARAM_SET[2] = (byte)l0;
         PRINT_LABEL_PARAM_SET[3] = (byte)l1;
@@ -172,7 +204,6 @@ public class PrinterHelper implements Serializable {
         PRINT_LABEL_PARAM_SET[7] = (byte)hH;
         PRINT_LABEL_PARAM_SET[8] = (byte)m;
         WriteData(PRINT_LABEL_PARAM_SET);
-
     }
 
     // 打印机走纸设置 ： 0 ≤ m ≤ 255
