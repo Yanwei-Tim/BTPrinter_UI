@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -22,7 +23,10 @@ import com.rmicro.printersdk.listener.BluetoothStateListener;
 import com.rmicro.printersdk.listener.IReceiveDataListener;
 import com.rmicro.printersdk.util.PrinterHelper;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Arrays;
 
 public class BtPrinterActivity extends AppCompatActivity implements View.OnClickListener {
@@ -157,15 +161,15 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
             case R.id.btn_imgprintTest:
                 //startBtCmdService(ConstantDefine.ACTION_IMG_PRINT_TEST);
                 //设置纸张类型
-                setPrinterPageType(2);//间隙纸张
+                //setPrinterPageType(2);//间隙纸张
                 //设置标签规格
-                setPrinterLabelParam(44,0,244,1,90,1,0);//(17,0,144,1,0,2,0);
+                //setPrinterLabelParam(44,0,244,1,90,1,0);//(17,0,144,1,0,2,0);
                 //走纸10点 --> 与标签顶部距离10点
-                setPrinterPageRun(10);
+                //setPrinterPageRun(0);
                 //打印图形
                 printImage();
                 //走纸一张标签 --> 出纸张一张标签
-                setPrinterPageRunNext();
+                //setPrinterPageRunNext();
                 break;
             case R.id.btn_getPrintStatus:
                 //startBtCmdService(ConstantDefine.ACTION_GET_PRINT_STATUS);
@@ -239,13 +243,13 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
     *高度和宽度设置的单位为mm。
     *精度为0.1mm
     */
-    private void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m){
-        try {
-            PrinterHelper.setPrinterLabelParam(l0,l1,wL,wH,hL,hH,m);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
+//    private void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m){
+//        try {
+//            PrinterHelper.setPrinterLabelParam(l0,l1,wL,wH,hL,hH,m);
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//    }
 
     // 打印机走纸设置 ： 0 ≤ m ≤ 255
     private void setPrinterPageRun(int val){
@@ -299,24 +303,91 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
         return model_no;
     }
 
+    private static void byteOutStream(String msg) throws Exception {
+        Log.d(TAG,"output :" + "/sdcard/btprinter.txt" );
+        //1:使用File类创建一个要操作的文件路径
+        File file = new File("/sdcard/btprinter.txt");
+        if(!file.getParentFile().exists()){ //如果文件的目录不存在
+            file.getParentFile().mkdirs(); //创建目录
+
+        }
+        //2: 实例化OutputString 对象
+        OutputStream output = new FileOutputStream(file);
+
+        //3: 准备好实现内容的输出
+        //将字符串变为字节数组
+        output.write(msg.getBytes());
+        //4: 资源操作的最后必须关闭
+        output.close();
+
+    }
+
+    /**
+     * 按新的宽高缩放图片
+     *
+     * @param bm
+     * @param newWidth
+     * @param newHeight
+     * @return
+     */
+    public static Bitmap scaleImage(Bitmap bm, int newWidth, int newHeight)
+    {
+        if (bm == null)
+        {
+            return null;
+        }
+        int width = bm.getWidth();
+        int height = bm.getHeight();
+        float scaleWidth = ((float) newWidth) / width;
+        float scaleHeight = ((float) newHeight) / height;
+        Matrix matrix = new Matrix();
+        matrix.postScale(scaleWidth, scaleHeight);
+        Bitmap newbm = Bitmap.createBitmap(bm, 0, 0, width, height, matrix,
+                true);
+        if (bm != null & !bm.isRecycled())
+        {
+            bm.recycle();
+            bm = null;
+        }
+        return newbm;
+    }
+
     private void printImage() {
         Log.d(TAG, "printTest..");
         try {
-            InputStream inbmp = this.getResources().getAssets().open("logo_sto_print1.png");
+            PrinterHelper.setPrinterPageType(2);
+            PrinterHelper.setPrinterPageRun(0);
+            InputStream inbmp = this.getResources().getAssets().open("55x40.png");
             Bitmap bitmap = BitmapFactory.decodeStream(inbmp);
-            byte[] add = PrinterHelper.getByteArray(0x00);
-            int[] sourceData = PrinterHelper.getBitmapData(bitmap);
+            Bitmap targetBitmap = scaleImage(bitmap,((55 - 4) * 8) ,((40 - 4) * 8));
+            int[] sourceData = PrinterHelper.getBitmapData(targetBitmap);
             byte[] data = PrinterHelper.getByteArray(sourceData);
-            int sendLen = bitmap.getWidth();//
+            int sendLen = targetBitmap.getWidth();//
             byte[] ImageCMD = PrinterHelper.getImageCmd(PrinterHelper.IMAGECMD, sendLen);
 
+            PrinterHelper.setPrinterLabelParam(550,400,0);
+
+            Log.d(TAG,"Ori Image width :" + bitmap.getWidth() + "  Ori height : " + bitmap.getHeight() );
+            Log.d(TAG,"Tartget Image width :" + targetBitmap.getWidth() + "  Tartget height : " + targetBitmap.getHeight() +  "  data length: " + data.length  + "  ImageCMD : " + PrinterHelper.bytesToHexString(ImageCMD));
+            byteOutStream(PrinterHelper.bytesToHexString(data));
             for (int i = 0; i < data.length / sendLen; i++) {
-                byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1)
-                        * sendLen);
+                byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1) * sendLen);
                 byte[] stemp = PrinterHelper.concat(temp, PrinterHelper.WRAP_PRINT);
                 byte[] printData = PrinterHelper.concat(ImageCMD, stemp);
+                Log.d(TAG,"printData : " + PrinterHelper.bytesToHexString(printData));
                 PrinterHelper.WriteData(printData);
             }
+            if (bitmap != null & !bitmap.isRecycled())
+            {
+                bitmap.recycle();
+                bitmap = null;
+            }
+            if (targetBitmap != null & !targetBitmap.isRecycled())
+            {
+                targetBitmap.recycle();
+                targetBitmap = null;
+            }
+            PrinterHelper.setPrinterPageRunNext();
         } catch (Exception e) {
             e.printStackTrace();
         }
