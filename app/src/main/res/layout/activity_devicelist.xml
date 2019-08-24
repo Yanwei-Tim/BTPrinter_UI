@@ -33,7 +33,7 @@
             android:layout_height="20dp"
             android:background="@android:color/holo_blue_dark"
             android:paddingLeft="5dp"
-            android:text="已配对设备"
+            android:text="未配对设备"
             android:textColor="#fff"
             android:visibility="visible" />
         <!-- 扫描出来没有经过配对的设备信息 -->
