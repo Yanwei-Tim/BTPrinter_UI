@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.rmicro.btprinter.R;
 import com.rmicro.printersdk.BluetoothSdkManager;
 import com.rmicro.printersdk.constant.ConstantDefine;
+import com.rmicro.printersdk.listener.BleScanListener;
 import com.rmicro.printersdk.listener.DiscoveryDevicesListener;
 
 import java.util.ArrayList;
@@ -115,7 +116,7 @@ public class DeviceListActivity extends Activity {
 
                 @Override
                 public void discoveryNew(BluetoothDevice device) {
-                    Toast.makeText(DeviceListActivity.this, "发现新的蓝牙设备...", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DeviceListActivity.this, "发现新的蓝牙设备 : " + device.getName(), Toast.LENGTH_SHORT).show();
                     mNewDevicesArrayAdapter.add(device.getName() + "\n" + device.getAddress());
                 }
 

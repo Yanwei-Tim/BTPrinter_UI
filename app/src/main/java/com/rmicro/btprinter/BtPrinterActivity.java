@@ -356,20 +356,30 @@ public class BtPrinterActivity extends AppCompatActivity implements View.OnClick
         Log.d(TAG, "printTest..");
         try {
             PrinterHelper.setPrinterPageType(2);
-            PrinterHelper.setPrinterPageRun(0);
-            InputStream inbmp = this.getResources().getAssets().open("55x40.png");
+            InputStream inbmp = this.getResources().getAssets().open("50x30.png");
+
             Bitmap bitmap = BitmapFactory.decodeStream(inbmp);
-            Bitmap targetBitmap = scaleImage(bitmap,((55 - 4) * 8) ,((40 - 4) * 8));
+            Log.d(TAG,">>提取原始图片数据..");
+            int[] orData = PrinterHelper.getBitmapData(bitmap);
+            Log.d(TAG,">>提取原始图片数据完成..");
+            Log.d(TAG,"ori-imageData : " + PrinterHelper.intToString(orData));
+            Log.d(TAG,"ori-imageData-bytes : " + PrinterHelper.bytesToHexString(PrinterHelper.getByteArray(orData)));
+            Log.d(TAG,"--------------------------------------------------------");
+            Log.d(TAG,">>图片缩放..");
+            Bitmap targetBitmap = scaleImage(bitmap,(5 * 8) ,(3 * 8));
+            Log.d(TAG,">>提取缩放图片数据..");
             int[] sourceData = PrinterHelper.getBitmapData(targetBitmap);
+            Log.d(TAG,">>提取缩放图片数据完成..");
+            Log.d(TAG,"scalerImageData : " + PrinterHelper.intToString(sourceData));
             byte[] data = PrinterHelper.getByteArray(sourceData);
+            Log.d(TAG,"scalerImageData-bytes : " + PrinterHelper.bytesToHexString(data));
             int sendLen = targetBitmap.getWidth();//
             byte[] ImageCMD = PrinterHelper.getImageCmd(PrinterHelper.IMAGECMD, sendLen);
 
-            PrinterHelper.setPrinterLabelParam(550,400,0);
+            PrinterHelper.setPrinterLabelParam(50,30,0);
 
             Log.d(TAG,"Ori Image width :" + bitmap.getWidth() + "  Ori height : " + bitmap.getHeight() );
             Log.d(TAG,"Tartget Image width :" + targetBitmap.getWidth() + "  Tartget height : " + targetBitmap.getHeight() +  "  data length: " + data.length  + "  ImageCMD : " + PrinterHelper.bytesToHexString(ImageCMD));
-            byteOutStream(PrinterHelper.bytesToHexString(data));
             for (int i = 0; i < data.length / sendLen; i++) {
                 byte[] temp = Arrays.copyOfRange(data, i * sendLen, (i + 1) * sendLen);
                 byte[] stemp = PrinterHelper.concat(temp, PrinterHelper.WRAP_PRINT);
