@@ -1,6 +1,10 @@
 package com.rmicro.printersdk;
 
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothManager;
+import android.bluetooth.le.BluetoothLeScanner;
+import android.bluetooth.le.ScanCallback;
+import android.bluetooth.le.ScanResult;
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -14,6 +18,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.rmicro.printersdk.constant.ConstantDefine;
+import com.rmicro.printersdk.listener.BleScanListener;
 import com.rmicro.printersdk.listener.BluetoothConnectListener;
 import com.rmicro.printersdk.listener.BluetoothStateListener;
 import com.rmicro.printersdk.listener.DiscoveryDevicesListener;
@@ -28,7 +33,7 @@ import java.util.Set;
 /**
  * Description: 接口管理类
  */
-public enum BluetoothSdkManager {
+public enum  BluetoothSdkManager {
     INSTANCE;
     private static final String TAG = BluetoothSdkManager.class.getSimpleName();
     public static final String BT_PREFERENCE = "bt_preference";
@@ -43,7 +48,9 @@ public enum BluetoothSdkManager {
     private PrintQueue printQueue;
     private ArrayList<byte[]> mQueue;
 
+    private BluetoothManager bluetoothManager;
     private BluetoothAdapter mBluetoothAdapter;
+    private BluetoothLeScanner bluetoothLeScanner;
     private String mConnectDeviceName;
     private String mConnectDeviceAddress;
 
@@ -52,6 +59,7 @@ public enum BluetoothSdkManager {
     private BluetoothStateListener mStateListener = null;
     private IReceiveDataListener mReceiveDataListener = null;
     private DiscoveryDevicesListener mDiscoveryDevicesListener = null;
+    private BleScanListener mBleScanListener = null;
 
     private BtService mBTService;
     private boolean isConnected = false;
@@ -62,11 +70,16 @@ public enum BluetoothSdkManager {
     private DiscoveryReceiver mReceiver;
     private boolean isRegister = false;
 
+    //public static BluetoothSdkManager INSTANCE;
+
     public void init(Context context) {
         this.mContext = context;
+        //INSTANCE = this;
         printQueue = PrintQueue.getQueue(mContext);
         mQueue = printQueue.getmQueue();
-        mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        bluetoothManager = (BluetoothManager) mContext.getSystemService(Context.BLUETOOTH_SERVICE);
+        mBluetoothAdapter = bluetoothManager.getAdapter();
+        bluetoothLeScanner = mBluetoothAdapter.getBluetoothLeScanner();
         //获取本地保存的已连接的设备信息
         btName = (String) SharedPreferencesUtil.get(mContext, BluetoothSdkManager.BT_PREFERENCE, BluetoothSdkManager.KEY_BT_NAME, "");
         btAddress = (String) SharedPreferencesUtil.get(mContext, BluetoothSdkManager.BT_PREFERENCE, BluetoothSdkManager.KEY_BT_ADDRESS, "");
@@ -247,33 +260,50 @@ public enum BluetoothSdkManager {
         }
 
         IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_STARTED);
         intentFilter.addAction(BluetoothDevice.ACTION_FOUND);
         intentFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
         mContext.registerReceiver(mReceiver, intentFilter);
         isRegister = true;
         mDeviceList.clear();
-
         if (isDiscoverying()) {
             cancelDiscovery();
+            //bluetoothLeScanner.stopScan(scanCallback);
         }
-
         //扫描
         int intStartCount = 0;
         while (!startDiscovery() && intStartCount < 5) {
             Log.e(TAG, "扫描尝试失败");
             intStartCount++;
             try {
-                Thread.sleep(100);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
+        //bluetoothLeScanner.startScan(scanCallback);
 
         if (mDiscoveryDevicesListener != null) {
             mDiscoveryDevicesListener.startDiscovery();
         }
 
     }
+
+    private ScanCallback scanCallback = new ScanCallback() {
+        @Override
+        public void onScanResult(int callbackType, ScanResult results) {
+            Log.d(TAG, "onScanResult --- device.toString: " + results.getDevice().getName() + ":" + results.getDevice().getAddress());
+            if (results.getDevice().getBluetoothClass().getMajorDeviceClass() == 1536) {
+                if (!mDeviceList.contains(results.getDevice())) {
+                    if (mDiscoveryDevicesListener != null) {
+                        Log.d(TAG, "onReceive --- device.toString: " + results.getDevice().getName() + ":" + results.getDevice().getAddress());
+                        mDiscoveryDevicesListener.discoveryNew(results.getDevice());
+                    }
+                    mDeviceList.add(results.getDevice());
+                }
+            }
+        }
+    };
 
     //发现蓝牙设备广播(已对蓝牙进行过滤,只显示打印机蓝牙)
     public class DiscoveryReceiver extends BroadcastReceiver {

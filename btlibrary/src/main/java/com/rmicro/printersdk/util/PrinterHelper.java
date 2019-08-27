@@ -1581,6 +1581,28 @@ public class PrinterHelper implements Serializable {
         return Bitmap.createBitmap(source, x, y, width, height);
     }
 
+    public static String intToString(int[] src) {
+        StringBuffer stringBuilder = new StringBuffer("");
+        if (src == null || src.length <= 0) {
+            return null;
+        }
+        for (int i = 0; i < src.length; i++) {
+            stringBuilder = stringBuilder.append(src[i]).append(" ");;
+        }
+        return stringBuilder.toString().toUpperCase();
+    }
+
+    public static String intToHexString(int[] src) {
+        StringBuffer stringBuilder = new StringBuffer("");
+        if (src == null || src.length <= 0) {
+            return null;
+        }
+        for (int i = 0; i < src.length; i++) {
+            String hv = Integer.toHexString(src[i]);
+            stringBuilder = stringBuilder.append(hv).append(" ");;
+        }
+        return stringBuilder.toString().toUpperCase();
+    }
 
     public static int byte2Int(byte b){
         return (int)(b & 0xff);
@@ -1610,6 +1632,7 @@ public class PrinterHelper implements Serializable {
         int[] pixels = new int[width * height];
         byte[] bytes = new byte[width * height];
         bitmap.getPixels(pixels, 0, width, 0, 0, width, height);
+        Log.d(TAG,"getBitmapData ori pixels  : " + intToHexString(pixels));
         for (int i = 0; i < pixels.length; i++) {
             if (pixels[i] == WITER) {
                 pixels[i] = 0;
@@ -1618,7 +1641,8 @@ public class PrinterHelper implements Serializable {
             }
             bytes[i] = (byte)pixels[i];
         }
-        Log.d(TAG,"getBitmapData pixels  : " + bytesToHexString(bytes));
+        Log.d(TAG,"getBitmapData pixels  : " + intToString(pixels));
+        Log.d(TAG,"getBitmapData pixels_bytes  : " + bytesToHexString(bytes));
         return get8BitData(pixels, width, height);
     }
 
@@ -1646,7 +1670,8 @@ public class PrinterHelper implements Serializable {
                 bytes[i * width + j] = (byte)targData[i * width + j];
             }
         }
-        Log.d(TAG,"get8BitData targData  : " + bytesToHexString(bytes));
+        Log.d(TAG,"get8BitData targData  : " + intToString(targData));
+        Log.d(TAG,"get8BitData targData_bytes  : " + bytesToHexString(bytes));
         return targData;
     }
 
