@@ -77,9 +77,9 @@ public enum  BluetoothSdkManager {
         //INSTANCE = this;
         printQueue = PrintQueue.getQueue(mContext);
         mQueue = printQueue.getmQueue();
-        bluetoothManager = (BluetoothManager) mContext.getSystemService(Context.BLUETOOTH_SERVICE);
-        mBluetoothAdapter = bluetoothManager.getAdapter();
-        bluetoothLeScanner = mBluetoothAdapter.getBluetoothLeScanner();
+        //bluetoothManager = (BluetoothManager) mContext.getSystemService(Context.BLUETOOTH_SERVICE);
+        mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();//bluetoothManager.getAdapter();
+        //bluetoothLeScanner = mBluetoothAdapter.getBluetoothLeScanner();
         //获取本地保存的已连接的设备信息
         btName = (String) SharedPreferencesUtil.get(mContext, BluetoothSdkManager.BT_PREFERENCE, BluetoothSdkManager.KEY_BT_NAME, "");
         btAddress = (String) SharedPreferencesUtil.get(mContext, BluetoothSdkManager.BT_PREFERENCE, BluetoothSdkManager.KEY_BT_ADDRESS, "");
@@ -260,7 +260,6 @@ public enum  BluetoothSdkManager {
         }
 
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_STARTED);
         intentFilter.addAction(BluetoothDevice.ACTION_FOUND);
         intentFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
         mContext.registerReceiver(mReceiver, intentFilter);
@@ -276,12 +275,11 @@ public enum  BluetoothSdkManager {
             Log.e(TAG, "扫描尝试失败");
             intStartCount++;
             try {
-                Thread.sleep(200);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        //bluetoothLeScanner.startScan(scanCallback);
 
         if (mDiscoveryDevicesListener != null) {
             mDiscoveryDevicesListener.startDiscovery();
@@ -289,21 +287,6 @@ public enum  BluetoothSdkManager {
 
     }
 
-    private ScanCallback scanCallback = new ScanCallback() {
-        @Override
-        public void onScanResult(int callbackType, ScanResult results) {
-            Log.d(TAG, "onScanResult --- device.toString: " + results.getDevice().getName() + ":" + results.getDevice().getAddress());
-            if (results.getDevice().getBluetoothClass().getMajorDeviceClass() == 1536) {
-                if (!mDeviceList.contains(results.getDevice())) {
-                    if (mDiscoveryDevicesListener != null) {
-                        Log.d(TAG, "onReceive --- device.toString: " + results.getDevice().getName() + ":" + results.getDevice().getAddress());
-                        mDiscoveryDevicesListener.discoveryNew(results.getDevice());
-                    }
-                    mDeviceList.add(results.getDevice());
-                }
-            }
-        }
-    };
 
     //发现蓝牙设备广播(已对蓝牙进行过滤,只显示打印机蓝牙)
     public class DiscoveryReceiver extends BroadcastReceiver {
@@ -313,18 +296,18 @@ public enum  BluetoothSdkManager {
             String action = intent.getAction();
             if (BluetoothDevice.ACTION_FOUND.equals(action)) {
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-                if (device.getBondState() == BluetoothDevice.BOND_NONE) {
+                Log.d(TAG, "onReceive --- device.toString: " + device.getName() + ":" + device.getAddress());
+                //if (device.getBondState() == BluetoothDevice.) {
                     ////int deviceType = device.getBluetoothClass().getMajorDeviceClass(); 不同设备类型该值不同，比如computer蓝牙为256、phone 蓝牙为512、打印机蓝牙为1536搜索等等。
                     if (device.getBluetoothClass().getMajorDeviceClass() == 1536) {
                         if (!mDeviceList.contains(device)) {
                             if (mDiscoveryDevicesListener != null) {
-                                Log.d(TAG, "onReceive --- device.toString: " + device.getName() + ":" + device.getAddress());
                                 mDiscoveryDevicesListener.discoveryNew(device);
                             }
                             mDeviceList.add(device);
                         }
                     }
-                }
+                //}
 
             } else if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED.equals(action)) {
                 if (mDiscoveryDevicesListener != null) {
@@ -407,6 +390,13 @@ public enum  BluetoothSdkManager {
         }
     };
 
+    /**
+     * 判断蓝牙是否已连接
+     * @return
+     */
+    public boolean isConnected() {
+        return isConnected;
+    }
     //************* 打印相关 ****************//
 
     /**

@@ -101,10 +101,15 @@ public class PrinterHelper implements Serializable {
     public static final byte[] SET_PRINTER_IMAGE2 = getByteArray(0x1B, 0x19);
     //走纸命令  1B 4A m  m表示走纸点行数   0 ≤ m ≤ 255
     public static final byte[] SET_PRINTER_PAGE_RUN = getByteArray(0x1B, 0x4A);
+    //走纸命令  1B 34 m  n 垂直移动 m=0 表示打印区域上移  m=1 表示打印区域下移
+    public static final byte[] SET_PRINTER_OFFSET_V = getByteArray(0x1B, 0x34);
+    //走纸命令  1B 35 m  n 水平移动 m=0 表示打印区域左移  m=1 表示打印区域右移
+    public static final byte[] SET_PRINTER_OFFSET_H = getByteArray(0x1B, 0x35);
     //走纸命令  走到下个标签  十六进制码	1B 0C
     public static final byte[] SET_PRINTER_PAGE_RUN_NEXT = getByteArray(0x1B, 0x69);
     //打印字体／图片行间距 命令头
     public static final byte[] PRINT_LINESPACE = getByteArray(0x1B, 0x31);
+    public static final byte[] SET_PRINTER_FOR_ANDROID = getByteArray(0x1B, 0x33);
 
     // 打印并回车
     public static final byte[] ENTER_PRINT = getByteArray(0x0D);
@@ -125,6 +130,9 @@ public class PrinterHelper implements Serializable {
             bytes[i] = (byte) array[i];
         }
         return bytes;
+    }
+    public static void setPrinterForAndroid() throws Exception {
+        WriteData(SET_PRINTER_FOR_ANDROID);
     }
 
     //打印字体／图片行间距设置 0x00～0xFF  打印图片设置为0x0  打印文字参考设置为0x5
@@ -162,6 +170,13 @@ public class PrinterHelper implements Serializable {
         精度为0.1mm
     * */
     //public static void setPrinterLabelParam(int l0,int l1,int wL,int wH,int hL, int hH,int m) throws Exception {
+    /*
+    * HEX:		1B  29  L0 L1 wL wH  hL  hH  m
+    * width = 标签实际宽度/长度
+    * height = 标签实际高度
+      高度和宽度设置的单位为mm。
+      精度为0.1mm
+    * */
     public static void setPrinterLabelParam(int width,int height,int m) throws Exception {
         byte[] PRINT_LABEL_PARAM_SET = new byte[9];
         int l0;
@@ -212,6 +227,23 @@ public class PrinterHelper implements Serializable {
         System.arraycopy(SET_PRINTER_PAGE_RUN, 0, PRINT_PAGE_RUN_SET, 0, SET_PRINTER_PAGE_RUN.length);
         PRINT_PAGE_RUN_SET[2] = (byte)val;
         WriteData(PRINT_PAGE_RUN_SET);
+    }
+    //走纸命令  1B 34 m  n 垂直移动 m=0 表示打印区域上移  m=1 表示打印区域下移
+    public static void setSetPrinterOffsetV(int direction,int val) throws Exception {
+        byte[] PRINTER_OFFSET_V_SET = new byte[4];
+        System.arraycopy(SET_PRINTER_OFFSET_V, 0, PRINTER_OFFSET_V_SET, 0, SET_PRINTER_OFFSET_V.length);
+        PRINTER_OFFSET_V_SET[2] = (byte)direction;
+        PRINTER_OFFSET_V_SET[3] = (byte)val;
+        WriteData(PRINTER_OFFSET_V_SET);
+    }
+
+    //走纸命令  1B 35 m  n 水平移动 m=0 表示打印区域左移  m=1 表示打印区域右移
+    public static void setSetPrinterOffsetH(int direction,int val) throws Exception {
+        byte[] PRINTER_OFFSET_H_SET = new byte[4];
+        System.arraycopy(SET_PRINTER_OFFSET_H, 0, PRINTER_OFFSET_H_SET, 0, SET_PRINTER_OFFSET_H.length);
+        PRINTER_OFFSET_H_SET[2] = (byte)direction;
+        PRINTER_OFFSET_H_SET[3] = (byte)val;
+        WriteData(PRINTER_OFFSET_H_SET);
     }
 
     // 打印机走纸-->走到下一个标签纸

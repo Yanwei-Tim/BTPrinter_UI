@@ -98,7 +98,7 @@ public class BtService {
 
     //开启线程，连接远程的蓝牙设备
     public synchronized void connect(BluetoothDevice device) {
-        Log.d(TAG, "connect to: " + device);
+        Log.d(TAG, "connect to: " + device.getName() + "  address：" + device.getAddress());
         // Cancel any thread attempting to make a connection
         if (mState == ConstantDefine.CONNECT_STATE_CONNECTING) {
             if (mConnectThread != null) {
@@ -403,7 +403,7 @@ public class BtService {
                             fullDatas = addBytes(fullDatas, perDatas);
                             totalLen += perLen;
 
-                            if (perDatas[len - 1] == 0) {//完整的数据(此处针对打印机进行特殊处理)
+                            //if (perDatas[len - 1] == 0) {//完整的数据(此处针对打印机进行特殊处理)
                                 //接收到的数据分两条线路获取,一条是通过回调的mHandler,另一条是通过setCurrentCMDReadData用于命令返回.
                                 mHandler.obtainMessage(ConstantDefine.MESSAGE_STATE_READ, totalLen, -1, fullDatas).sendToTarget();
                                 //保存当前命令的返回数据
@@ -412,7 +412,7 @@ public class BtService {
                                 //复位
                                 fullDatas = new byte[0];
                                 totalLen = 0;
-                            }
+                            //}
                         }
                     }
                 } catch (Exception ex) {
@@ -452,14 +452,14 @@ public class BtService {
                 //    Log.d(TAG, "**SNBC**");
                 //    mmOutputStream.write(new byte[]{0x1b, 0x41});
                 //}
-                //Log.d(TAG, "write  " + Arrays.toString(data));
+                Log.d(TAG, "write  " + Arrays.toString(data));
                 mmOutputStream.write(data);
                 mmOutputStream.flush();
                 mHandler.obtainMessage(ConstantDefine.MESSAGE_STATE_WRITE, -1, -1, data).sendToTarget();
             } catch (Exception ex) {
                 try {
                     mmOutputStream.flush();
-                    mmOutputStream.close();
+                    //mmOutputStream.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
